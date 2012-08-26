@@ -1,0 +1,89 @@
+!SESSION 2012-08-25 16:55:00.804 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-25 17:11:49.799
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-25 17:12:05.388
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-25 17:21:58.153
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-25 17:21:59.185
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-25 17:21:59.186
+!MESSAGE Server processes have been terminated.
+!SESSION 2012-08-25 19:36:25.934 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-25 20:48:56.631
+!MESSAGE Module tatadfas published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-25 20:51:05.688
+!MESSAGE Module gerencia-curriculoEAR published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-25 20:51:05.697
+!MESSAGE Module gerencia-curriculo published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-25 20:51:05.714
+!MESSAGE Module gerencia-curriculoClient published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-25 20:51:05.762
+!MESSAGE Module gerencia-curriculoWeb published without error.
+
+!ENTRY unknown 0 0 2012-08-25 20:51:05.778
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-25 20:51:12.479
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-25 20:51:26.402
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2012-08-25 20:51:27.274
+!MESSAGE Module gerencia-curriculoWeb on JBoss 7.0 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2012-08-25 20:51:47.495
+!MESSAGE Module gerencia-curriculoWeb on JBoss 7.0 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-25 20:52:07.760
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-25 20:52:08.815
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-25 20:52:08.818
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-25 20:56:32.159
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-25 20:56:38.135
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2012-08-25 20:56:38.534
+!MESSAGE Module gerencia-curriculoWeb on JBoss 7.0 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2012-08-25 20:56:58.713
+!MESSAGE Module gerencia-curriculoWeb on JBoss 7.0 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-25 20:57:27.792
+!MESSAGE 1 files modified in module gerencia-curriculoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-25 20:57:34.269
+!MESSAGE 1 files modified in module gerencia-curriculoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-25 20:57:36.349
+!MESSAGE 1 files modified in module gerencia-curriculoWeb
