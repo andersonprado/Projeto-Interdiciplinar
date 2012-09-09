@@ -6,7 +6,7 @@ import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-import clienterepositorio.ClienteRepositorio;
+import clienterepositorio.EmpresaRepositorio;
 
 import br.com.entidade.Empresa;
 
@@ -14,7 +14,7 @@ import br.com.entidade.Empresa;
 @RequestScoped
 public class EmpresaMB {
 	@EJB
-	private ClienteRepositorio repositorio;
+	private EmpresaRepositorio repositorio;
 	private Empresa empresa = new Empresa();
 	private List<Empresa> empresaCache;
 

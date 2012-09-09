@@ -1,0 +1,9 @@
+package br.com.entidade;
+
+import java.io.Serializable;
+
+public class Tipo implements Serializable {
+	private int cod;
+	private String nome;
+
+}

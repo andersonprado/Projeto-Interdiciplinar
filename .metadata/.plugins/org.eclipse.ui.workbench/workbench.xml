@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="49" version="2.0">
+<workbench progressCount="129" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="514" y="101">
+<window height="768" width="1024" x="212" y="198">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -21,7 +21,7 @@
 <coolItem id="org.jboss.tools.jst.jsp.toolbars.sampleToolbar" itemType="typeToolBarContribution" x="303" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.jboss.tools.jst.web.ui.server.actionSet" itemType="typeToolBarContribution" x="153" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
@@ -46,7 +46,7 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor" name="index.xhtml" partName="index.xhtml" path="C:/Programação/Workspaces/Web/projetointerdiciplinar/ger-curriculoWeb/WebContent/index.xhtml" title="index.xhtml" tooltip="C:/Programação/Workspaces/Web/projetointerdiciplinar/ger-curriculoWeb/WebContent/index.xhtml" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor" name="index.xhtml" partName="index.xhtml" path="E:/Git/projetointerdiciplinar/ger-curriculoWeb/WebContent/index.xhtml" title="index.xhtml" tooltip="E:/Git/projetointerdiciplinar/ger-curriculoWeb/WebContent/index.xhtml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/ger-curriculoWeb/WebContent/index.xhtml"/>
 </editor>
 </editors>
@@ -56,8 +56,7 @@
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<expanded>
-<category IMemento.internal.id="EJB Problem (1 item)"/>
+<expanded>&#x0A;<category IMemento.internal.id="EJB Problem (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
@@ -194,7 +193,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.69860893" ratioLeft="452" ratioRight="195" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.wst.server.ui.ServersView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
@@ -233,124 +232,169 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/br/com/entidade/Curriculo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/br/com/entidade/CurriculoCursos.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/br/com/entidade/Curso.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/br/com/entidade/CurriculoEmpresa.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/br/com/entidade/TelefoneEmpresa.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/clienterepositorio/ClienteRepositorio.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/clienterepositorio/EmpresaRepositorio.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculo/ejbModule/clienterepositorio/EmpresaRepositorioImplement.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoWeb/src/managedbean/EmpresaMB.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/clienterepositorio/UsuarioRepositorio.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculo/ejbModule/clienterepositorio/UsuarioRepositorioImplement.java"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor" path="/ger-curriculoWeb/WebContent/admin.html"/>
 <editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor" path="/ger-curriculoWeb/WebContent/index.xhtml"/>
 </editors>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2126" y="0"/>
+<item historyLabel="CurriculoCursos.java" index="1">
+<position info="not_deleted" x="1046" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2139" y="0"/>
+<item historyLabel="CurriculoCursos.java" index="1">
+<position info="not_deleted" x="257" y="4"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2231" y="0"/>
+<item historyLabel="CurriculoCursos.java" index="1">
+<position info="not_deleted" x="246" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2231" y="0"/>
+<item historyLabel="CurriculoCursos.java" index="1">
+<position info="not_deleted" x="234" y="5"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2190" y="0"/>
+<item historyLabel="Curso.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2189" y="0"/>
+<item historyLabel="Curso.java" index="2">
+<position info="not_deleted" x="452" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2189" y="0"/>
+<item historyLabel="CurriculoCursos.java" index="1">
+<position info="not_deleted" x="1045" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2227" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2226" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2188" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2187" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2186" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2186" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2186" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position info="not_deleted" x="311" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1696" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position info="not_deleted" x="241" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1696" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position info="not_deleted" x="294" y="16"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1691" y="0"/>
+<item historyLabel="CurriculoEmpresa.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1691" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position info="not_deleted" x="620" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1691" y="0"/>
+<item historyLabel="CurriculoEmpresa.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1691" y="0"/>
+<item historyLabel="CurriculoEmpresa.java" index="3">
+<position info="not_deleted" x="1059" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1691" y="0"/>
+<item historyLabel="CurriculoEmpresa.java" index="3">
+<position info="not_deleted" x="285" y="4"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1691" y="0"/>
+<item historyLabel="CurriculoEmpresa.java" index="3">
+<position info="not_deleted" x="1059" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1691" y="0"/>
+<item historyLabel="TelefoneEmpresa.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1670" y="26"/>
+<item historyLabel="TelefoneEmpresa.java" index="4">
+<position info="not_deleted" x="620" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1670" y="26"/>
+<item historyLabel="CurriculoEmpresa.java" index="3">
+<position info="not_deleted" x="1059" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1603" y="0"/>
+<item historyLabel="Curriculo.java" index="0">
+<position info="not_deleted" x="620" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1603" y="0"/>
+<item historyLabel="ClienteRepositorio.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1602" y="0"/>
+<item historyLabel="EmpresaRepositorio.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="634" y="0"/>
+<item historyLabel="EmpresaRepositorioImplement.java" index="7">
+<position/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="634" y="0"/>
+<item historyLabel="EmpresaMB.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2340" y="0"/>
+<item historyLabel="UsuarioRepositorio.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2329" y="0"/>
+<item historyLabel="UsuarioRepositorio.java" index="9">
+<position info="not_deleted" x="209" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2332" y="0"/>
+<item historyLabel="UsuarioRepositorio.java" index="9">
+<position info="not_deleted" x="196" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2332" y="0"/>
+<item historyLabel="EmpresaRepositorioImplement.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2335" y="0"/>
+<item historyLabel="UsuarioRepositorioImplement.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1933" y="0"/>
+<item historyLabel="UsuarioRepositorioImplement.java" index="10">
+<position info="not_deleted" x="297" y="0"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="2523" y="0"/>
+<item historyLabel="UsuarioRepositorioImplement.java" index="10">
+<position info="not_deleted" x="330" y="27"/>
 </item>
-<item historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="895" y="0"/>
+<item historyLabel="UsuarioRepositorioImplement.java" index="10">
+<position info="not_deleted" x="515" y="0"/>
 </item>
-<item active="true" historyLabel="index.xhtml" index="0">
-<position info="not_deleted" x="1937" y="0"/>
+<item historyLabel="UsuarioRepositorioImplement.java" index="10">
+<position info="not_deleted" x="470" y="7"/>
+</item>
+<item historyLabel="UsuarioRepositorioImplement.java" index="10">
+<position info="not_deleted" x="236" y="0"/>
+</item>
+<item historyLabel="UsuarioRepositorioImplement.java" index="10">
+<position info="not_deleted" x="330" y="27"/>
+</item>
+<item historyLabel="UsuarioRepositorioImplement.java" index="10">
+<position/>
+</item>
+<item historyLabel="UsuarioRepositorioImplement.java" index="10">
+<position info="not_deleted" x="526" y="0"/>
+</item>
+<item historyLabel="admin.html" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="admin.html" index="11">
+<position info="not_deleted" x="237" y="0"/>
+</item>
+<item historyLabel="index.xhtml" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.xhtml" index="12">
+<position info="not_deleted" x="770" y="0"/>
+</item>
+<item historyLabel="index.xhtml" index="12">
+<position info="not_deleted" x="1630" y="0"/>
+</item>
+<item historyLabel="index.xhtml" index="12">
+<position info="not_deleted" x="1606" y="0"/>
+</item>
+<item active="true" historyLabel="index.xhtml" index="12">
+<position info="not_deleted" x="1630" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -370,32 +414,47 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="persistence.xml" tooltip="ger-curriculo/ejbModule/META-INF/persistence.xml">
-<persistable path="/ger-curriculo/ejbModule/META-INF/persistence.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClienteRepositorio.java" tooltip="ger-curriculoClient/ejbModule/clienterepositorio/ClienteRepositorio.java">
-<persistable path="/ger-curriculoClient/ejbModule/clienterepositorio/ClienteRepositorio.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmpresaMB.java" tooltip="ger-curriculoWeb/src/managedbean/EmpresaMB.java">
-<persistable path="/ger-curriculoWeb/src/managedbean/EmpresaMB.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClienteMB.java" tooltip="ger-curriculoWeb/src/managedbean/ClienteMB.java">
-<persistable path="/ger-curriculoWeb/src/managedbean/ClienteMB.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClienteRepositorioImplement.java" tooltip="ger-curriculo/ejbModule/clienterepositorio/ClienteRepositorioImplement.java">
-<persistable path="/ger-curriculo/ejbModule/clienterepositorio/ClienteRepositorioImplement.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cliente.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Cliente.java">
-<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Cliente.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor" name="index.xhtml" tooltip="ger-curriculoWeb/WebContent/index.xhtml">
+<persistable path="/ger-curriculoWeb/WebContent/index.xhtml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor" name="admin.html" tooltip="ger-curriculoWeb/WebContent/admin.html">
 <persistable path="/ger-curriculoWeb/WebContent/admin.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="web.xml" tooltip="ger-curriculoWeb/WebContent/WEB-INF/web.xml">
-<persistable path="/ger-curriculoWeb/WebContent/WEB-INF/web.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UsuarioRepositorioImplement.java" tooltip="ger-curriculo/ejbModule/clienterepositorio/UsuarioRepositorioImplement.java">
+<persistable path="/ger-curriculo/ejbModule/clienterepositorio/UsuarioRepositorioImplement.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="web.xml" tooltip="telas/WebContent/WEB-INF/web.xml">
-<persistable path="/telas/WebContent/WEB-INF/web.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmpresaRepositorioImplement.java" tooltip="ger-curriculo/ejbModule/clienterepositorio/EmpresaRepositorioImplement.java">
+<persistable path="/ger-curriculo/ejbModule/clienterepositorio/EmpresaRepositorioImplement.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UsuarioRepositorio.java" tooltip="ger-curriculoClient/ejbModule/clienterepositorio/UsuarioRepositorio.java">
+<persistable path="/ger-curriculoClient/ejbModule/clienterepositorio/UsuarioRepositorio.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmpresaMB.java" tooltip="ger-curriculoWeb/src/managedbean/EmpresaMB.java">
+<persistable path="/ger-curriculoWeb/src/managedbean/EmpresaMB.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClienteRepositorio.java" tooltip="ger-curriculoClient/ejbModule/clienterepositorio/ClienteRepositorio.java">
+<persistable path="/ger-curriculoClient/ejbModule/clienterepositorio/ClienteRepositorio.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TelefoneEmpresa.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/TelefoneEmpresa.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/TelefoneEmpresa.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CurriculoEmpresa.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/CurriculoEmpresa.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/CurriculoEmpresa.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Curriculo.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Curriculo.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Curriculo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Curso.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Curso.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Curso.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CurriculoCursos.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/CurriculoCursos.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/CurriculoCursos.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TipoDeTelefone.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/TipoDeTelefone.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/TipoDeTelefone.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tipo.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Tipo.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Tipo.java"/>
 </file>
 </mruList>
 </workbench>

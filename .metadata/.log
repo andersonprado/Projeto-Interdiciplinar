@@ -332,3 +332,22 @@ java.lang.NullPointerException
 
 !ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-09 20:01:45.119
 !MESSAGE GlassFish: >>> Comando stop-domain executado com sucesso.
+!SESSION 2012-09-09 20:31:41.005 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_35
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data E:\Git\projetointerdiciplinar -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2012-09-09 20:31:44.713
+!MESSAGE Could not load repository template extension contributed by org.jboss.tools.common.mylyn with connectorKind jira
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-09 21:04:59.996
+!MESSAGE GlassFish: >>> C:\Program Files\Java\jdk1.6.0_35/bin/java
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-09 21:05:02.852
+!MESSAGE GlassFish: >>> Aguardando o domínio encerrar .
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-09 21:05:02.854
+!MESSAGE GlassFish: >>> Comando stop-domain executado com sucesso.

@@ -87,11 +87,11 @@
    </libraries>
   </path>
   <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.security.auth.message.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.enterprise.deploy.jar"/>
   <path value="E:/Servidores Web/glassfish3/glassfish/modules/jersey-core.jar"/>
+  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.enterprise.deploy.jar"/>
   <path value="E:/Servidores Web/glassfish3/glassfish/modules/endorsed/webservices-api-osgi.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/weld-osgi-bundle.jar"/>
   <path value="E:/Servidores Web/glassfish3/glassfish/modules/org.eclipse.persistence.oracle.jar"/>
+  <path value="E:/Servidores Web/glassfish3/glassfish/modules/weld-osgi-bundle.jar"/>
   <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.resource.jar"/>
   <path value="E:/Servidores Web/glassfish3/glassfish/modules/org.eclipse.persistence.jpa.jar"/>
   <path value="E:/Servidores Web/glassfish3/glassfish/modules/webservices-osgi.jar"/>
@@ -185,17 +185,17 @@
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="13" name="%0" offset="2394" path="%1"/>
-   <linked-el length="28" name="%0" offset="2021" path="%1"/>
-   <linked-el length="15" name="%0" offset="2484" path="%1"/>
-   <linked-el length="28" name="%2" offset="2021" path="%1"/>
-   <linked-el length="24" name="%2" offset="2279" path="%1"/>
-   <linked-el length="24" name="%2" offset="2088" path="%1"/>
-   <linked-el length="13" name="%3" offset="2394" path="%1"/>
-   <linked-el length="28" name="%3" offset="2021" path="%1"/>
-   <linked-el length="24" name="%3" offset="2279" path="%1"/>
-   <linked-el length="15" name="%3" offset="2484" path="%1"/>
-   <linked-el length="24" name="%3" offset="2088" path="%1"/>
+   <linked-el length="13" name="%0" offset="2410" path="%1"/>
+   <linked-el length="15" name="%0" offset="2500" path="%1"/>
+   <linked-el length="28" name="%0" offset="2027" path="%1"/>
+   <linked-el length="24" name="%2" offset="2094" path="%1"/>
+   <linked-el length="24" name="%2" offset="2285" path="%1"/>
+   <linked-el length="28" name="%2" offset="2027" path="%1"/>
+   <linked-el length="13" name="%3" offset="2410" path="%1"/>
+   <linked-el length="24" name="%3" offset="2094" path="%1"/>
+   <linked-el length="15" name="%3" offset="2500" path="%1"/>
+   <linked-el length="24" name="%3" offset="2285" path="%1"/>
+   <linked-el length="28" name="%3" offset="2027" path="%1"/>
   </el>
  </validation>
  <aliases>
