@@ -1,0 +1,30 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import javax.ejb.Local;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+
+import br.com.entidade.Cliente;
+
+@Stateless
+@Local(ClienteRepositorio.class)
+public class ClienteRepositorioImplement implements ClienteRepositorio {
+	@PersistenceContext
+	private EntityManager manager;
+
+	public void adiciona(Cliente cliente) {
+		manager.persist(cliente);
+	}
+
+	public List<Cliente> getClientes() {
+
+		TypedQuery<Cliente> query = manager.createQuery(
+				"select cl from Cliente cl", Cliente.class);
+
+		return query.getResultList();
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;ger-curriculoClient/ejbModule&apos;&#x0D;&#x0A;- Original project: &apos;projetoClient&apos;&#x0D;&#x0A;- Destination element: &apos;ger-curriculoClient/ejbModule&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     projetoClient/ejbModule/br.com.entidade&#x0D;&#x0A;     projetoClient/ejbModule/clienterepositorio" description="Copy packages" destination="=ger-curriculoClient/ejbModule" element1="/ejbModule&lt;br.com.entidade" element2="/ejbModule&lt;clienterepositorio" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1347228829504" version="1.0"/>
+</session>
