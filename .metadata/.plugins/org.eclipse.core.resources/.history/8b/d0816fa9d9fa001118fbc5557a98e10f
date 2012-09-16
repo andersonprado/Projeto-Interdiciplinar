@@ -1,0 +1,12 @@
+package br.com.entidade;
+
+import java.io.Serializable;
+
+public class CurriculoEmpresa implements Serializable {
+	private int idCurriculo;
+	private Empresa empresa;
+	private Date dataEntrada;
+	private Date dataSaida;
+	private String atividades;
+
+}

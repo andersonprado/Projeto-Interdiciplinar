@@ -1,0 +1,21 @@
+INDEX VERSION 1.126+E:\Git\projetointerdiciplinar\.metadata\.plugins\org.eclipse.jdt.core
+3775694054.index
+2317591532.index
+3579233383.index
+1025120281.index
+4134457777.index
+1146386286.index
+3186183251.index
+2770499377.index
+2680470285.index
+3022208230.index
+2332430878.index
+3354291137.index
+1332998020.index
+3280662819.index
+710917610.index
+1672864259.index
+2316889727.index
+1025031464.index
+2758148056.index
+1354617813.index

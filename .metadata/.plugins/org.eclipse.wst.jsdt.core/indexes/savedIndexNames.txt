@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+E:\Git\projetointerdiciplinar\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2487544234.index
+1118860054.index
+4111730654.index
+1672864259.index
+1532516044.index
