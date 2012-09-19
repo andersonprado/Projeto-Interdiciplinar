@@ -848,3 +848,381 @@ java.net.ConnectException: Connection refused: connect
 
 !ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-15 23:13:52.719
 !MESSAGE GlassFish: >>> Comando stop-domain executado com sucesso.
+!SESSION 2012-09-18 23:03:50.613 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_35
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2012-09-18 23:05:50.304
+!MESSAGE Could not load repository template extension contributed by org.jboss.tools.common.mylyn with connectorKind jira
+
+!ENTRY org.eclipse.ecf.provider.filetransfer 4 0 2012-09-18 23:06:14.003
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.provider.filetransfer;code=4;message=hardClose;severity4;exception=java.io.IOException: Stream closed;children=[]]
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:170)
+	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:184)
+	at org.apache.commons.httpclient.ChunkedInputStream.exhaustInputStream(ChunkedInputStream.java:369)
+	at org.apache.commons.httpclient.ContentLengthInputStream.close(ContentLengthInputStream.java:118)
+	at java.io.FilterInputStream.close(Unknown Source)
+	at org.apache.commons.httpclient.AutoCloseInputStream.notifyWatcher(AutoCloseInputStream.java:194)
+	at org.apache.commons.httpclient.AutoCloseInputStream.close(AutoCloseInputStream.java:158)
+	at java.util.zip.InflaterInputStream.close(Unknown Source)
+	at java.util.zip.GZIPInputStream.close(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.hardClose(AbstractRetrieveFileTransfer.java:331)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:396)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.cancel(HttpClientRetrieveFileTransfer.java:382)
+	at org.jboss.tools.project.examples.filetransfer.ECFExamplesTransport$1.handleTransferEvent(ECFExamplesTransport.java:283)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.fireTransferReceiveDataEvent(AbstractRetrieveFileTransfer.java:388)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.fireTransferReceiveDataEvent(HttpClientRetrieveFileTransfer.java:1163)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.handleReceivedData(AbstractRetrieveFileTransfer.java:288)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:173)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ecf.provider.filetransfer 4 0 2012-09-18 23:06:15.032
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.provider.filetransfer;code=4;message=hardClose;severity4;exception=java.io.IOException: Stream closed;children=[]]
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:170)
+	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:184)
+	at org.apache.commons.httpclient.ChunkedInputStream.exhaustInputStream(ChunkedInputStream.java:369)
+	at org.apache.commons.httpclient.ContentLengthInputStream.close(ContentLengthInputStream.java:118)
+	at java.io.FilterInputStream.close(Unknown Source)
+	at org.apache.commons.httpclient.AutoCloseInputStream.notifyWatcher(AutoCloseInputStream.java:194)
+	at org.apache.commons.httpclient.AutoCloseInputStream.close(AutoCloseInputStream.java:158)
+	at java.util.zip.InflaterInputStream.close(Unknown Source)
+	at java.util.zip.GZIPInputStream.close(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.hardClose(AbstractRetrieveFileTransfer.java:331)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:396)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.cancel(HttpClientRetrieveFileTransfer.java:382)
+	at org.jboss.tools.project.examples.filetransfer.ECFExamplesTransport$1.handleTransferEvent(ECFExamplesTransport.java:283)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.fireTransferReceiveDataEvent(AbstractRetrieveFileTransfer.java:388)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.fireTransferReceiveDataEvent(HttpClientRetrieveFileTransfer.java:1163)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.handleReceivedData(AbstractRetrieveFileTransfer.java:288)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:173)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ecf.provider.filetransfer 4 0 2012-09-18 23:06:16.358
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.provider.filetransfer;code=4;message=hardClose;severity4;exception=java.io.IOException: Stream closed;children=[]]
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.ChunkedInputStream.read(ChunkedInputStream.java:182)
+	at org.apache.commons.httpclient.ChunkedInputStream.read(ChunkedInputStream.java:196)
+	at org.apache.commons.httpclient.ChunkedInputStream.exhaustInputStream(ChunkedInputStream.java:369)
+	at org.apache.commons.httpclient.ChunkedInputStream.close(ChunkedInputStream.java:346)
+	at java.io.FilterInputStream.close(Unknown Source)
+	at org.apache.commons.httpclient.AutoCloseInputStream.notifyWatcher(AutoCloseInputStream.java:194)
+	at org.apache.commons.httpclient.AutoCloseInputStream.close(AutoCloseInputStream.java:158)
+	at java.util.zip.InflaterInputStream.close(Unknown Source)
+	at java.util.zip.GZIPInputStream.close(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.hardClose(AbstractRetrieveFileTransfer.java:331)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:396)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.cancel(HttpClientRetrieveFileTransfer.java:382)
+	at org.jboss.tools.project.examples.filetransfer.ECFExamplesTransport$1.handleTransferEvent(ECFExamplesTransport.java:283)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.fireTransferReceiveDataEvent(AbstractRetrieveFileTransfer.java:388)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.fireTransferReceiveDataEvent(HttpClientRetrieveFileTransfer.java:1163)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.handleReceivedData(AbstractRetrieveFileTransfer.java:288)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:173)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ecf.provider.filetransfer 4 0 2012-09-18 23:06:16.358
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.provider.filetransfer;code=4;message=hardClose;severity4;exception=java.io.IOException: Stream closed;children=[]]
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.ChunkedInputStream.read(ChunkedInputStream.java:182)
+	at org.apache.commons.httpclient.ChunkedInputStream.read(ChunkedInputStream.java:196)
+	at org.apache.commons.httpclient.ChunkedInputStream.exhaustInputStream(ChunkedInputStream.java:369)
+	at org.apache.commons.httpclient.ChunkedInputStream.close(ChunkedInputStream.java:346)
+	at java.io.FilterInputStream.close(Unknown Source)
+	at org.apache.commons.httpclient.AutoCloseInputStream.notifyWatcher(AutoCloseInputStream.java:194)
+	at org.apache.commons.httpclient.AutoCloseInputStream.close(AutoCloseInputStream.java:158)
+	at java.util.zip.InflaterInputStream.close(Unknown Source)
+	at java.util.zip.GZIPInputStream.close(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.hardClose(AbstractRetrieveFileTransfer.java:331)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:396)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.cancel(HttpClientRetrieveFileTransfer.java:382)
+	at org.jboss.tools.project.examples.filetransfer.ECFExamplesTransport$1.handleTransferEvent(ECFExamplesTransport.java:283)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.fireTransferReceiveDataEvent(AbstractRetrieveFileTransfer.java:388)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.fireTransferReceiveDataEvent(HttpClientRetrieveFileTransfer.java:1163)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.handleReceivedData(AbstractRetrieveFileTransfer.java:288)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:173)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ecf.provider.filetransfer 4 0 2012-09-18 23:06:19.912
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.provider.filetransfer;code=4;message=hardClose;severity4;exception=java.io.IOException: Stream closed;children=[]]
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.ChunkedInputStream.read(ChunkedInputStream.java:182)
+	at org.apache.commons.httpclient.ChunkedInputStream.read(ChunkedInputStream.java:196)
+	at org.apache.commons.httpclient.ChunkedInputStream.exhaustInputStream(ChunkedInputStream.java:369)
+	at org.apache.commons.httpclient.ChunkedInputStream.close(ChunkedInputStream.java:346)
+	at java.io.FilterInputStream.close(Unknown Source)
+	at org.apache.commons.httpclient.AutoCloseInputStream.notifyWatcher(AutoCloseInputStream.java:194)
+	at org.apache.commons.httpclient.AutoCloseInputStream.close(AutoCloseInputStream.java:158)
+	at java.util.zip.InflaterInputStream.close(Unknown Source)
+	at java.util.zip.GZIPInputStream.close(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.hardClose(AbstractRetrieveFileTransfer.java:331)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:396)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.cancel(HttpClientRetrieveFileTransfer.java:382)
+	at org.jboss.tools.project.examples.filetransfer.ECFExamplesTransport$1.handleTransferEvent(ECFExamplesTransport.java:283)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.fireTransferReceiveDataEvent(AbstractRetrieveFileTransfer.java:388)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.fireTransferReceiveDataEvent(HttpClientRetrieveFileTransfer.java:1163)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.handleReceivedData(AbstractRetrieveFileTransfer.java:288)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:173)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ecf.provider.filetransfer 4 0 2012-09-18 23:06:22.828
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.provider.filetransfer;code=4;message=hardClose;severity4;exception=java.io.IOException: Stream closed;children=[]]
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.ChunkedInputStream.read(ChunkedInputStream.java:182)
+	at org.apache.commons.httpclient.ChunkedInputStream.read(ChunkedInputStream.java:196)
+	at org.apache.commons.httpclient.ChunkedInputStream.exhaustInputStream(ChunkedInputStream.java:369)
+	at org.apache.commons.httpclient.ChunkedInputStream.close(ChunkedInputStream.java:346)
+	at java.io.FilterInputStream.close(Unknown Source)
+	at org.apache.commons.httpclient.AutoCloseInputStream.notifyWatcher(AutoCloseInputStream.java:194)
+	at org.apache.commons.httpclient.AutoCloseInputStream.close(AutoCloseInputStream.java:158)
+	at java.util.zip.InflaterInputStream.close(Unknown Source)
+	at java.util.zip.GZIPInputStream.close(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.hardClose(AbstractRetrieveFileTransfer.java:331)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:396)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.cancel(HttpClientRetrieveFileTransfer.java:382)
+	at org.jboss.tools.project.examples.filetransfer.ECFExamplesTransport$1.handleTransferEvent(ECFExamplesTransport.java:283)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.fireTransferReceiveDataEvent(AbstractRetrieveFileTransfer.java:388)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.fireTransferReceiveDataEvent(HttpClientRetrieveFileTransfer.java:1163)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.handleReceivedData(AbstractRetrieveFileTransfer.java:288)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:173)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 0 2012-09-18 23:06:29.879
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.CoolBar.getItems(CoolBar.java:531)
+	at org.eclipse.jface.action.CoolBarManager.findCoolItem(CoolBarManager.java:311)
+	at org.eclipse.jface.action.CoolBarManager.itemRemoved(CoolBarManager.java:488)
+	at org.eclipse.jface.action.ContributionManager.replaceItem(ContributionManager.java:517)
+	at org.eclipse.ui.internal.EditorActionBars.dispose(EditorActionBars.java:178)
+	at org.eclipse.ui.internal.EditorManager.disposeEditorActionBars(EditorManager.java:389)
+	at org.eclipse.ui.internal.EditorReference.doDisposePart(EditorReference.java:330)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:684)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1797)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1501)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1485)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1459)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1514)
+	at org.eclipse.ui.internal.EditorPane.doHide(EditorPane.java:61)
+	at org.eclipse.ui.internal.PartStack.close(PartStack.java:537)
+	at org.eclipse.ui.internal.EditorStack.close(EditorStack.java:206)
+	at org.eclipse.ui.internal.PartStack$1.close(PartStack.java:120)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:83)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:269)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:278)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.access$1(DefaultTabFolder.java:1)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder$1.closeButtonPressed(DefaultTabFolder.java:71)
+	at org.eclipse.ui.internal.presentations.PaneFolder.notifyCloseListeners(PaneFolder.java:631)
+	at org.eclipse.ui.internal.presentations.PaneFolder$3.close(PaneFolder.java:206)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1599)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:261)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SESSION 2012-09-18 23:09:52.042 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_35
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2012-09-18 23:12:52.121
+!MESSAGE Could not load repository template extension contributed by org.jboss.tools.common.mylyn with connectorKind jira
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-18 23:30:00.096
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: ger-curriculoEAR: Erro durante a implantação: Exceção ao implantar a aplicação [ger-curriculoEAR] : Não é possível solucionar a referência Remote ejb-ref name=managedbean.EmpresaMB/repositorio,Remote 3.x interface =clienterepositorio.EmpresaRepositorio,ejb-link=null,lookup=,mappedName=,jndi-name=,refType=Session porque há 2 ejbs na aplicação com a interface clienterepositorio.EmpresaRepositorio. 
+Algumas causas possíveis: 
+1. A classe de bean EJB foi encapsulada como uma biblioteca ear lib (ou através de qualquer outro mecanismo de biblioteca que torna a biblioteca visível a todos os módulos de componentes), e isso faz com que todos os módulos de componentes incluam este bean indiretamente. 
+2. A classe de bean EJB foi encapsulada em um módulo de componente que referencia o EJB, direta ou indiretamente através do Manifest, WEB-INF/lib. 
+A classe de bean EJB deve ser encapsulada apenas no módulo ejb declarante e não nos módulos de referenciamento. Os módulos de referenciamento devem incluir somente interfaces EJB.. Consulte o server.log para obter informações detalhadas.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1046)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1138)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:955)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2012-09-18 23:30:00.098
+!MESSAGE Deployment Error for module: ger-curriculoEAR: Erro durante a implantação: Exceção ao implantar a aplicação [ger-curriculoEAR] : Não é possível solucionar a referência Remote ejb-ref name=managedbean.EmpresaMB/repositorio,Remote 3.x interface =clienterepositorio.EmpresaRepositorio,ejb-link=null,lookup=,mappedName=,jndi-name=,refType=Session porque há 2 ejbs na aplicação com a interface clienterepositorio.EmpresaRepositorio. 
+Algumas causas possíveis: 
+1. A classe de bean EJB foi encapsulada como uma biblioteca ear lib (ou através de qualquer outro mecanismo de biblioteca que torna a biblioteca visível a todos os módulos de componentes), e isso faz com que todos os módulos de componentes incluam este bean indiretamente. 
+2. A classe de bean EJB foi encapsulada em um módulo de componente que referencia o EJB, direta ou indiretamente através do Manifest, WEB-INF/lib. 
+A classe de bean EJB deve ser encapsulada apenas no módulo ejb declarante e não nos módulos de referenciamento. Os módulos de referenciamento devem incluir somente interfaces EJB.. Consulte o server.log para obter informações detalhadas.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2012-09-18 23:30:00.117
+!MESSAGE cannot Deploy ger-curriculoEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: ger-curriculoEAR: Erro durante a implantação: Exceção ao implantar a aplicação [ger-curriculoEAR] : Não é possível solucionar a referência Remote ejb-ref name=managedbean.EmpresaMB/repositorio,Remote 3.x interface =clienterepositorio.EmpresaRepositorio,ejb-link=null,lookup=,mappedName=,jndi-name=,refType=Session porque há 2 ejbs na aplicação com a interface clienterepositorio.EmpresaRepositorio. 
+Algumas causas possíveis: 
+1. A classe de bean EJB foi encapsulada como uma biblioteca ear lib (ou através de qualquer outro mecanismo de biblioteca que torna a biblioteca visível a todos os módulos de componentes), e isso faz com que todos os módulos de componentes incluam este bean indiretamente. 
+2. A classe de bean EJB foi encapsulada em um módulo de componente que referencia o EJB, direta ou indiretamente através do Manifest, WEB-INF/lib. 
+A classe de bean EJB deve ser encapsulada apenas no módulo ejb declarante e não nos módulos de referenciamento. Os módulos de referenciamento devem incluir somente interfaces EJB.. Consulte o server.log para obter informações detalhadas.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1046)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1138)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:955)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2012-09-18 23:30:00.118
+!MESSAGE Deployment Error for module: ger-curriculoEAR: Erro durante a implantação: Exceção ao implantar a aplicação [ger-curriculoEAR] : Não é possível solucionar a referência Remote ejb-ref name=managedbean.EmpresaMB/repositorio,Remote 3.x interface =clienterepositorio.EmpresaRepositorio,ejb-link=null,lookup=,mappedName=,jndi-name=,refType=Session porque há 2 ejbs na aplicação com a interface clienterepositorio.EmpresaRepositorio. 
+Algumas causas possíveis: 
+1. A classe de bean EJB foi encapsulada como uma biblioteca ear lib (ou através de qualquer outro mecanismo de biblioteca que torna a biblioteca visível a todos os módulos de componentes), e isso faz com que todos os módulos de componentes incluam este bean indiretamente. 
+2. A classe de bean EJB foi encapsulada em um módulo de componente que referencia o EJB, direta ou indiretamente através do Manifest, WEB-INF/lib. 
+A classe de bean EJB deve ser encapsulada apenas no módulo ejb declarante e não nos módulos de referenciamento. Os módulos de referenciamento devem incluir somente interfaces EJB.. Consulte o server.log para obter informações detalhadas.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-18 23:33:46.253
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: ger-curriculoEAR: Erro durante a implantação: Exceção ao implantar a aplicação [ger-curriculoEAR] : Não é possível solucionar a referência Remote ejb-ref name=managedbean.EmpresaMB/repositorio,Remote 3.x interface =clienterepositorio.EmpresaRepositorio,ejb-link=null,lookup=,mappedName=,jndi-name=,refType=Session porque há 2 ejbs na aplicação com a interface clienterepositorio.EmpresaRepositorio. 
+Algumas causas possíveis: 
+1. A classe de bean EJB foi encapsulada como uma biblioteca ear lib (ou através de qualquer outro mecanismo de biblioteca que torna a biblioteca visível a todos os módulos de componentes), e isso faz com que todos os módulos de componentes incluam este bean indiretamente. 
+2. A classe de bean EJB foi encapsulada em um módulo de componente que referencia o EJB, direta ou indiretamente através do Manifest, WEB-INF/lib. 
+A classe de bean EJB deve ser encapsulada apenas no módulo ejb declarante e não nos módulos de referenciamento. Os módulos de referenciamento devem incluir somente interfaces EJB.. Consulte o server.log para obter informações detalhadas.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1046)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1138)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:955)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2012-09-18 23:33:46.253
+!MESSAGE Deployment Error for module: ger-curriculoEAR: Erro durante a implantação: Exceção ao implantar a aplicação [ger-curriculoEAR] : Não é possível solucionar a referência Remote ejb-ref name=managedbean.EmpresaMB/repositorio,Remote 3.x interface =clienterepositorio.EmpresaRepositorio,ejb-link=null,lookup=,mappedName=,jndi-name=,refType=Session porque há 2 ejbs na aplicação com a interface clienterepositorio.EmpresaRepositorio. 
+Algumas causas possíveis: 
+1. A classe de bean EJB foi encapsulada como uma biblioteca ear lib (ou através de qualquer outro mecanismo de biblioteca que torna a biblioteca visível a todos os módulos de componentes), e isso faz com que todos os módulos de componentes incluam este bean indiretamente. 
+2. A classe de bean EJB foi encapsulada em um módulo de componente que referencia o EJB, direta ou indiretamente através do Manifest, WEB-INF/lib. 
+A classe de bean EJB deve ser encapsulada apenas no módulo ejb declarante e não nos módulos de referenciamento. Os módulos de referenciamento devem incluir somente interfaces EJB.. Consulte o server.log para obter informações detalhadas.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2012-09-18 23:33:46.258
+!MESSAGE cannot Deploy ger-curriculoEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: ger-curriculoEAR: Erro durante a implantação: Exceção ao implantar a aplicação [ger-curriculoEAR] : Não é possível solucionar a referência Remote ejb-ref name=managedbean.EmpresaMB/repositorio,Remote 3.x interface =clienterepositorio.EmpresaRepositorio,ejb-link=null,lookup=,mappedName=,jndi-name=,refType=Session porque há 2 ejbs na aplicação com a interface clienterepositorio.EmpresaRepositorio. 
+Algumas causas possíveis: 
+1. A classe de bean EJB foi encapsulada como uma biblioteca ear lib (ou através de qualquer outro mecanismo de biblioteca que torna a biblioteca visível a todos os módulos de componentes), e isso faz com que todos os módulos de componentes incluam este bean indiretamente. 
+2. A classe de bean EJB foi encapsulada em um módulo de componente que referencia o EJB, direta ou indiretamente através do Manifest, WEB-INF/lib. 
+A classe de bean EJB deve ser encapsulada apenas no módulo ejb declarante e não nos módulos de referenciamento. Os módulos de referenciamento devem incluir somente interfaces EJB.. Consulte o server.log para obter informações detalhadas.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1046)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1138)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:955)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2012-09-18 23:33:46.258
+!MESSAGE Deployment Error for module: ger-curriculoEAR: Erro durante a implantação: Exceção ao implantar a aplicação [ger-curriculoEAR] : Não é possível solucionar a referência Remote ejb-ref name=managedbean.EmpresaMB/repositorio,Remote 3.x interface =clienterepositorio.EmpresaRepositorio,ejb-link=null,lookup=,mappedName=,jndi-name=,refType=Session porque há 2 ejbs na aplicação com a interface clienterepositorio.EmpresaRepositorio. 
+Algumas causas possíveis: 
+1. A classe de bean EJB foi encapsulada como uma biblioteca ear lib (ou através de qualquer outro mecanismo de biblioteca que torna a biblioteca visível a todos os módulos de componentes), e isso faz com que todos os módulos de componentes incluam este bean indiretamente. 
+2. A classe de bean EJB foi encapsulada em um módulo de componente que referencia o EJB, direta ou indiretamente através do Manifest, WEB-INF/lib. 
+A classe de bean EJB deve ser encapsulada apenas no módulo ejb declarante e não nos módulos de referenciamento. Os módulos de referenciamento devem incluir somente interfaces EJB.. Consulte o server.log para obter informações detalhadas.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-18 23:35:45.688
+!MESSAGE GlassFish: error 
+!STACK 0
+java.io.FileNotFoundException: http://localhost:4848/__asadmin/__locations
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.handleReceive(CommandRunner.java:755)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:639)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: http://localhost:4848/__asadmin/__locations
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:611)
+	... 6 more
+
+!ENTRY oracle.eclipse.tools.glassfish 4 150 2012-09-18 23:35:45.709
+!MESSAGE Wrong user name or password.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2012-09-18 23:48:50.246
+!MESSAGE No valid Android XML Editor Delegate found for file /ger-curriculo/ejbModule/META-INF/persistence.xml [Res null, type null]
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-18 23:52:53.009
+!MESSAGE GlassFish: >>> C:\Program Files\Java\jdk1.6.0_35/bin/java
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-18 23:52:54.622
+!MESSAGE GlassFish: >>> CLI306 Advertência - O servidor localizado em E:\Servidores Web\glassfish3\glassfish\domains\domain1 não está operando.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-18 23:52:54.623
+!MESSAGE GlassFish: >>> Comando stop-domain executado com sucesso.

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="85" version="2.0">
+<workbench progressCount="80" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="233" y="107">
+<window height="768" maximized="true" width="1024" x="233" y="107">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="53" y="22"/>
@@ -21,7 +21,7 @@
 <coolItem id="org.jboss.tools.jst.jsp.toolbars.sampleToolbar" itemType="typeToolBarContribution" x="268" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="org.jboss.tools.jst.web.ui.server.actionSet" itemType="typeToolBarContribution" x="153" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
@@ -62,6 +62,9 @@
 </viewState>
 </view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
@@ -77,7 +80,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.eclipse.wst.server.ui.ServersView" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -164,6 +167,7 @@
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
@@ -197,10 +201,10 @@
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
 <page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
@@ -209,6 +213,7 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
@@ -245,38 +250,47 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmpresaRepositorioImplement.java" tooltip="ger-curriculo/ejbModule/clienterepositorio/EmpresaRepositorioImplement.java">
-<persistable path="/ger-curriculo/ejbModule/clienterepositorio/EmpresaRepositorioImplement.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmpresaRepositorio.java" tooltip="ger-curriculoClient/ejbModule/clienterepositorio/EmpresaRepositorio.java">
-<persistable path="/ger-curriculoClient/ejbModule/clienterepositorio/EmpresaRepositorio.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor" name="index.xhtml" tooltip="ger-curriculoWeb/WebContent/index.xhtml">
 <persistable path="/ger-curriculoWeb/WebContent/index.xhtml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Teste.java" tooltip="ger-curriculo-Desktop/src/br/com/teste/Teste.java">
-<persistable path="/ger-curriculo-Desktop/src/br/com/teste/Teste.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListarEmpresas.java" tooltip="ger-curriculo-Desktop/src/br/com/teste/ListarEmpresas.java">
+<persistable path="/ger-curriculo-Desktop/src/br/com/teste/ListarEmpresas.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="persistence.xml" tooltip="ger-curriculo/ejbModule/META-INF/persistence.xml">
+<persistable path="/ger-curriculo/ejbModule/META-INF/persistence.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TelefoneEmpresa.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/TelefoneEmpresa.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/TelefoneEmpresa.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Telefone.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Telefone.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Telefone.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Login.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Login.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Login.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CurriculoEmpresa.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/CurriculoEmpresa.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/CurriculoEmpresa.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Endereco.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Endereco.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Endereco.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usuario.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Usuario.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Usuario.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TipoDeTelefone.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/TipoDeTelefone.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/TipoDeTelefone.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Curso.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Curso.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Curso.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CurriculoCursos.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/CurriculoCursos.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/CurriculoCursos.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Empresa.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Empresa.java">
 <persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Empresa.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UsuarioRepositorioImplement.java" tooltip="ger-curriculo/ejbModule/clienterepositorio/UsuarioRepositorioImplement.java">
-<persistable path="/ger-curriculo/ejbModule/clienterepositorio/UsuarioRepositorioImplement.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmpresaMB.java" tooltip="ger-curriculoWeb/src/managedbean/EmpresaMB.java">
-<persistable path="/ger-curriculoWeb/src/managedbean/EmpresaMB.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TesteConexao.java" tooltip="ger-curriculo-Desktop/src/br/com/teste/TesteConexao.java">
-<persistable path="/ger-curriculo-Desktop/src/br/com/teste/TesteConexao.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor" name="admin.html" tooltip="ger-curriculoWeb/WebContent/admin.html">
-<persistable path="/ger-curriculoWeb/WebContent/admin.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UsuarioRepositorio.java" tooltip="ger-curriculoClient/ejbModule/clienterepositorio/UsuarioRepositorio.java">
-<persistable path="/ger-curriculoClient/ejbModule/clienterepositorio/UsuarioRepositorio.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClienteRepositorio.java" tooltip="ger-curriculoClient/ejbModule/clienterepositorio/ClienteRepositorio.java">
-<persistable path="/ger-curriculoClient/ejbModule/clienterepositorio/ClienteRepositorio.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Curriculo.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Curriculo.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Curriculo.java"/>
 </file>
 </mruList>
 </workbench>

@@ -2,10 +2,16 @@ package br.com.entidade;
 
 import java.io.Serializable;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "endereco")
 public class Endereco implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-
+	@Id
 	private int id;
 	private int codUsuario;
 	private String rua;

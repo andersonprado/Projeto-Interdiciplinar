@@ -2,7 +2,8 @@ package clienterepositorio;
 
 import java.util.List;
 
-import javax.ejb.Local;
+
+import javax.ejb.Remote;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -11,7 +12,8 @@ import javax.persistence.TypedQuery;
 import br.com.entidade.Empresa;
 
 @Stateless
-@Local(EmpresaRepositorio.class)
+
+@Remote(EmpresaRepositorio.class)
 public class EmpresaRepositorioImplement implements EmpresaRepositorio {
 
 	@PersistenceContext

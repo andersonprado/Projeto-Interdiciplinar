@@ -3,9 +3,16 @@ package br.com.entidade;
 import java.io.Serializable;
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "curriculo_curso")
 public class CurriculoCursos implements Serializable {
 
 	private static final long serialVersionUID = 1L;
+	@Id
 	private int idCurriculoCurso;
 	private Curso curso;
 	private Date dataInicio;

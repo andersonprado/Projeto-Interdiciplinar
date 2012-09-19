@@ -105,47 +105,47 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/meta-inf/html_basic.tld" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/meta-inf/html_basic.tld" project="ger-curriculoClient"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/meta-inf/jsf_core.tld" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/meta-inf/jsf_core.tld" project="ger-curriculoClient"/>
     </library>
     <library class="facelet">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/meta-inf/mojarra_ext.taglib.xml" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/meta-inf/mojarra_ext.taglib.xml" project="ger-curriculoClient"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/meta-inf/mojarra_ext.tld" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/meta-inf/mojarra_ext.tld" project="ger-curriculoClient"/>
     </library>
     <library class="facelet">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="ger-curriculoClient"/>
     </library>
     <library class="facelet">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="ger-curriculoClient"/>
     </library>
     <library class="facelet">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="ger-curriculoClient"/>
     </library>
     <library class="facelet">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="ger-curriculoClient"/>
     </library>
     <library class="facelet">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="ger-curriculoClient"/>
     </library>
     <library class="facelet">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="ger-curriculoClient"/>
     </library>
     <library class="facelet">
      <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="ger-curriculoWeb"/>
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="ger-curriculoClient"/>
     </library>
    </libraries>
   </path>
