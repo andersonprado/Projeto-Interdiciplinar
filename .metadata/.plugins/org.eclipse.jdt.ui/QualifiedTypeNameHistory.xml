@@ -23,7 +23,6 @@
 <fullyQualifiedTypeName name="br.com.entidade.Empresa"/>
 <fullyQualifiedTypeName name="br.com.entidade.CurriculoEmpresa"/>
 <fullyQualifiedTypeName name="br.com.entidade.TelefoneEmpresa"/>
-<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
 <fullyQualifiedTypeName name="br.com.entidade.Endereco"/>
 <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
 <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
@@ -51,4 +50,6 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.com.entidade.TipoLogin"/>
 <fullyQualifiedTypeName name="javax.faces.model.SelectItem"/>
+<fullyQualifiedTypeName name="br.com.entidade.Vagas"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
 </qualifiedTypeNameHistroy>

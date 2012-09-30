@@ -7449,3 +7449,13 @@ org.eclipse.swt.SWTException: Invalid thread access
 
 !ENTRY oracle.eclipse.tools.glassfish 4 1 2012-09-30 00:06:33.723
 !MESSAGE GlassFish: >>> Comando stop-domain executado com sucesso.
+!SESSION 2012-09-30 14:42:26.255 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_35
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2012-09-30 14:42:32.610
+!MESSAGE Could not load repository template extension contributed by org.jboss.tools.common.mylyn with connectorKind jira

@@ -1,0 +1,81 @@
+package br.com.entidade;
+
+import java.io.Serializable;
+import java.util.Date;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import javax.persistence.Transient;
+
+@Entity
+@Table(name = "vagas")
+public class CandidatoVaga implements Serializable {
+	@Transient
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "cod_cad_vaga")
+	private int codCandVaga;
+	private String cargo;
+	@Temporal(TemporalType.DATE)
+	private Date dataCriacao;
+
+	@OneToOne(mappedBy = "cod_empresa")
+	private Empresa empresa;
+
+	@OneToOne(mappedBy = "cod")
+	private Curriculo curriculo;
+
+	
+
+	public int getCodCandVaga() {
+		return codCandVaga;
+	}
+
+	public void setCodCandVaga(int codCandVaga) {
+		this.codCandVaga = codCandVaga;
+	}
+
+	public String getcargo() {
+		return cargo;
+	}
+
+	public void setcargo(String cargo) {
+		this.cargo = cargo;
+	}
+
+
+	public Date getDataCriacao() {
+		return dataCriacao;
+	}
+
+	public void setDataCriacao(Date dataCriacao) {
+		this.dataCriacao = dataCriacao;
+	}
+
+	public Empresa getEmpresa() {
+		return empresa;
+	}
+
+	public void setEmpresa(Empresa empresa) {
+		this.empresa = empresa;
+	}
+
+	public Curriculo getCurriculo() {
+		return curriculo;
+	}
+
+	public void setCurriculo(Curriculo curriculo) {
+		this.curriculo = curriculo;
+	}
+
+
+
+}

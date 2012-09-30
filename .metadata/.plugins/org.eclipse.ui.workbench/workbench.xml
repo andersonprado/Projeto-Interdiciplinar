@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="129" version="2.0">
+<workbench progressCount="75" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="357" y="184">
+<window height="768" maximized="true" width="1024" x="357" y="184">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="182" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="53" y="22"/>
@@ -18,7 +18,7 @@
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
-<coolItem id="org.jboss.tools.jst.jsp.toolbars.sampleToolbar" itemType="typeToolBarContribution" x="268" y="22"/>
+<coolItem id="org.jboss.tools.jst.jsp.toolbars.sampleToolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -46,9 +46,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AreaAtuacao.java" partName="AreaAtuacao.java" path="E:/Git/projeto/ger-curriculoClient/ejbModule/br/com/entidade/AreaAtuacao.java" title="AreaAtuacao.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/AreaAtuacao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ger-curriculoClient/ejbModule/br/com/entidade/AreaAtuacao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Empresa.java" partName="Empresa.java" path="E:/Git/projeto/ger-curriculoClient/ejbModule/br/com/entidade/Empresa.java" title="Empresa.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Empresa.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ger-curriculoClient/ejbModule/br/com/entidade/Empresa.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="58" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -252,28 +252,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculo-Desktop/src/br/com/View/Menu.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculo-Desktop/src/br/com/View/Tela.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/br/com/entidade/AreaAtuacao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/br/com/entidade/Vagas.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/br/com/entidade/CandidatoVaga.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ger-curriculoClient/ejbModule/br/com/entidade/Empresa.java"/>
 </editors>
-<item historyLabel="LoginMB.java" index="0">
-<position/>
-</item>
-<item historyLabel="LoginMB.java" index="0">
-<position info="not_deleted" x="1618" y="0"/>
-</item>
-<item historyLabel="login-cad.xhtml" index="1">
-<position info="not_deleted" x="2951" y="0"/>
-</item>
-<item historyLabel="login-cad.xhtml" index="1">
-<position info="not_deleted" x="2674" y="0"/>
-</item>
-<item historyLabel="login-cad.xhtml" index="1">
-<position info="not_deleted" x="1983" y="0"/>
-</item>
-<item historyLabel="LoginMB.java" index="0">
-<position info="not_deleted" x="1628" y="0"/>
-</item>
-<item historyLabel="login-cad.xhtml" index="1">
-<position info="not_deleted" x="1983" y="0"/>
-</item>
 <item historyLabel="login-cad.xhtml" index="1">
 <position info="not_deleted" x="2672" y="0"/>
 </item>
@@ -400,7 +382,28 @@
 <item historyLabel="LoginMB.java" index="2">
 <position info="not_deleted" x="1426" y="0"/>
 </item>
-<item active="true" historyLabel="AreaAtuacao.java" index="5">
+<item historyLabel="AreaAtuacao.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Vagas.java" index="6">
+<position/>
+</item>
+<item historyLabel="Vagas.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CandidatoVaga.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CandidatoVaga.java" index="7">
+<position info="not_deleted" x="832" y="9"/>
+</item>
+<item historyLabel="CandidatoVaga.java" index="7">
+<position info="not_deleted" x="832" y="0"/>
+</item>
+<item historyLabel="CandidatoVaga.java" index="7">
+<position info="not_deleted" x="523" y="0"/>
+</item>
+<item active="true" historyLabel="Empresa.java" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -409,12 +412,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="topLeft"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="topRight"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -423,11 +420,19 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottomRight"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Empresa.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Empresa.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Empresa.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CandidatoVaga.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/CandidatoVaga.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/CandidatoVaga.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Vagas.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/Vagas.java">
+<persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/Vagas.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AreaAtuacao.java" tooltip="ger-curriculoClient/ejbModule/br/com/entidade/AreaAtuacao.java">
 <persistable path="/ger-curriculoClient/ejbModule/br/com/entidade/AreaAtuacao.java"/>
 </file>
