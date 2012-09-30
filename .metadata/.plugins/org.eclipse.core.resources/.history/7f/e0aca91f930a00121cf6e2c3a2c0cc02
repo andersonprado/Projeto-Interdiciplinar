@@ -1,0 +1,46 @@
+package managedbean;
+
+import java.util.List;
+
+import javax.ejb.EJB;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
+import br.com.entidade.AreaAtuacao;
+import clienterepositorio.AreaDeAtuacaoRepositorio;
+
+
+@ManagedBean
+@RequestScoped
+public class AreaDeAtuacaoMB {
+	@EJB
+	private AreaDeAtuacaoRepositorio repositorio;
+	private AreaAtuacao area = new AreaAtuacao();
+	private List<AreaAtuacao> areacache;
+
+	public String adiciona() {
+		repositorio.adiciona(this.area);
+		this.area = new AreaAtuacao();
+		this.areacache = null;
+		return "";
+	}
+
+	public List<AreaAtuacao> getListaAreas() {
+		if (this.areacache == null) {
+			this.areacache = this.repositorio.listaDeAreas();
+
+		}
+		return this.areacache;
+	}
+
+	public AreaAtuacao getArea() {
+		return area;
+	}
+
+	public void setArea(AreaAtuacao area) {
+		this.area = area;
+	}
+
+	
+
+}

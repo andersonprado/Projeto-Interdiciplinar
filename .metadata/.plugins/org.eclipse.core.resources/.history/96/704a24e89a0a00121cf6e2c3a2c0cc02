@@ -1,0 +1,12 @@
+package clienterepositorio;
+
+import java.util.List;
+
+
+
+public interface RepositorioGenerico<T> {
+	
+	public void adiciona (<T> objeto);
+public void a();
+	public List<T> getLista();
+}

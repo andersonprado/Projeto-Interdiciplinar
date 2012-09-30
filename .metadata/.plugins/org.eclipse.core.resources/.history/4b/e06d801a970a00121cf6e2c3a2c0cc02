@@ -1,0 +1,21 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import br.com.entidade.AreaAtuacao;
+
+public class AreaAtuacaoRepositorioImplement implements AreaAtuacaoRepositorio {
+
+	@Override
+	public void adiciona(AreaAtuacao empresa) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<AreaAtuacao> getListaArea() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

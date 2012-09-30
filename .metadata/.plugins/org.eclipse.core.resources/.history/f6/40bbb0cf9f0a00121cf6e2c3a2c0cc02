@@ -1,0 +1,43 @@
+package managedbean;
+
+import java.util.List;
+
+import javax.ejb.EJB;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+import clienterepositorio.LoginRepositorio;
+import br.com.entidade.Login;
+import clienterepositorio.LoginRepositorio;
+import br.com.entidade.TipoLogin;;
+@ManagedBean
+@RequestScoped
+public class LoginMB {
+	@EJB
+	private LoginRepositorio repositorio;
+	private Login Login = new Login();
+	private List<Login> loginCache;
+
+	public String adiciona() {
+		repositorio.adiciona(this.Login);
+		this.Login = new Login();
+		this.loginCache = null;
+		return "";
+	}
+
+	public List<Login> getLogins() {
+		if (this.loginCache == null) {
+			this.loginCache = this.repositorio.getLista();
+
+		}
+		return this.loginCache;
+	}
+
+	public Login getLogin() {
+		return Login;
+	}
+
+	public void setLogin(Login Login) {
+		this.Login = Login;
+	}
+
+}

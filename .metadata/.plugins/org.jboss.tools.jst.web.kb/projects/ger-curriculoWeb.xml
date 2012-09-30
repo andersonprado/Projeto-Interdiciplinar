@@ -5,14 +5,100 @@
  </depends-on-projects>
  <used-by-projects/>
  <paths>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/endorsed/javax.annotation.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/org.eclipse.persistence.asm.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/jersey-client.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.el.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/org.eclipse.persistence.jpa.modelgen.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.servlet-api.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.servlet.jsp.jstl-api.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.servlet.jsp.jstl.jar">
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/webservices-osgi.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/webservices-extra-jdk-packages.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/endorsed/javax.annotation.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/glassfish-api-l10n.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.jms.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/org.eclipse.persistence.asm.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/org.eclipse.persistence.core.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.servlet.jsp.jstl-api.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/webservices-connector.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/org.eclipse.persistence.antlr.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/org.eclipse.persistence.oracle.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/org.eclipse.persistence.jpa.modelgen.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/ha-api.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/endorsed/webservices-api-osgi.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.servlet.jsp.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.security.jacc.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/weld-osgi-bundle.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-gf-statsproviders.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.ejb.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-core.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/endorsed/jaxb-api-osgi.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/org.eclipse.persistence.moxy.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-gf-server.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jersey-gf-server.jar/meta-inf/taglib.tld" project="ger-curriculoWeb"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.faces.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/meta-inf/html_basic.tld" project="ger-curriculoWeb"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/meta-inf/jsf_core.tld" project="ger-curriculoWeb"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/meta-inf/mojarra_ext.taglib.xml" project="ger-curriculoWeb"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/meta-inf/mojarra_ext.tld" project="ger-curriculoWeb"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="ger-curriculoWeb"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="ger-curriculoWeb"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="ger-curriculoWeb"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="ger-curriculoWeb"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="ger-curriculoWeb"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="ger-curriculoWeb"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="ger-curriculoWeb"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.transaction.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-grizzly.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/glassfish-api.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.security.auth.message.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.enterprise.deploy.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-client.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.resource.jar"/>
+  <path value="/ger-curriculoWeb/WebContent/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="ger-curriculoWeb"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.servlet.jsp.jstl.jar">
    <libraries>
     <library class="tld">
      <id class="model-object"
@@ -76,131 +162,126 @@
     </library>
    </libraries>
   </path>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/webservices-connector.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/grizzly-comet.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/jersey-gf-server.jar">
-   <libraries>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jersey-gf-server.jar/meta-inf/taglib.tld" project="ger-curriculoWeb"/>
-    </library>
-   </libraries>
-  </path>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.security.auth.message.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/jersey-core.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.enterprise.deploy.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/endorsed/webservices-api-osgi.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/org.eclipse.persistence.oracle.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/weld-osgi-bundle.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.resource.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/org.eclipse.persistence.jpa.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/webservices-osgi.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/webservices-extra-jdk-packages.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.mail.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.jms.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/grizzly-websockets.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/jersey-gf-servlet.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.el-api.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.faces.jar">
-   <libraries>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/meta-inf/html_basic.tld" project="ger-curriculoClient"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/meta-inf/jsf_core.tld" project="ger-curriculoClient"/>
-    </library>
-    <library class="facelet">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/meta-inf/mojarra_ext.taglib.xml" project="ger-curriculoClient"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/meta-inf/mojarra_ext.tld" project="ger-curriculoClient"/>
-    </library>
-    <library class="facelet">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="ger-curriculoClient"/>
-    </library>
-    <library class="facelet">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="ger-curriculoClient"/>
-    </library>
-    <library class="facelet">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="ger-curriculoClient"/>
-    </library>
-    <library class="facelet">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="ger-curriculoClient"/>
-    </library>
-    <library class="facelet">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="ger-curriculoClient"/>
-    </library>
-    <library class="facelet">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="ger-curriculoClient"/>
-    </library>
-    <library class="facelet">
-     <id class="model-object"
-      path="FileSystems/lib-javax.faces.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="ger-curriculoClient"/>
-    </library>
-   </libraries>
-  </path>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.transaction.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/glassfish-api.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/jersey-json.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/jaxb-osgi.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.security.jacc.jar"/>
-  <path value="/ger-curriculoWeb/WebContent/WEB-INF/faces-config.xml">
-   <libraries>
-    <library class="faces-config">
-     <id class="model-object"
-      path="FileSystems/WEB-INF/faces-config.xml" project="ger-curriculoWeb"/>
-    </library>
-   </libraries>
-  </path>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/jersey-grizzly.jar"/>
-  <path value="E:/Servidores Web/glassfish3/mq/lib/jaxm-api.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/jersey-moxy.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/ha-api.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/jersey-gf-statsproviders.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/webservices.security.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.servlet.jsp.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/glassfish-api-l10n.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/org.eclipse.persistence.core.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/jersey-multipart.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/endorsed/jaxb-api-osgi.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/bean-validator.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/org.eclipse.persistence.moxy.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.ejb.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.persistence.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.management.j2ee.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/org.eclipse.persistence.antlr.jar"/>
-  <path value="E:/Servidores Web/glassfish3/glassfish/modules/javax.servlet.jsp-api.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.el-api.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-json.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.el.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/org.eclipse.persistence.jpa.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.management.j2ee.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/bean-validator.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.servlet-api.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.mail.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/mq/lib/jaxm-api.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-gf-servlet.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/grizzly-comet.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.persistence.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/grizzly-websockets.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-multipart.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.servlet.jsp-api.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/webservices.security.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jaxb-osgi.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-moxy.jar"/>
  </paths>
  <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="13" name="%0" offset="2410" path="%1"/>
-   <linked-el length="15" name="%0" offset="2500" path="%1"/>
+   <linked-el length="15" name="%0" offset="2410" path="%1"/>
+   <linked-el length="15" name="%0" offset="2502" path="%1"/>
    <linked-el length="28" name="%0" offset="2027" path="%1"/>
-   <linked-el length="24" name="%2" offset="2094" path="%1"/>
-   <linked-el length="24" name="%2" offset="2285" path="%1"/>
-   <linked-el length="28" name="%2" offset="2027" path="%1"/>
-   <linked-el length="13" name="%3" offset="2410" path="%1"/>
-   <linked-el length="24" name="%3" offset="2094" path="%1"/>
-   <linked-el length="15" name="%3" offset="2500" path="%1"/>
-   <linked-el length="24" name="%3" offset="2285" path="%1"/>
-   <linked-el length="28" name="%3" offset="2027" path="%1"/>
+   <linked-el length="23" name="%2" offset="2205" path="%3"/>
+   <linked-el length="15" name="%2" offset="2607" path="%3"/>
+   <linked-el length="19" name="%2" offset="2509" path="%3"/>
+   <linked-el length="20" name="%2" offset="2425" path="%3"/>
+   <linked-el length="25" name="%2" offset="2141" path="%3"/>
+   <linked-el length="23" name="%4" offset="2205" path="%3"/>
+   <linked-el length="20" name="%4" offset="2425" path="%3"/>
+   <linked-el length="25" name="%4" offset="2141" path="%3"/>
+   <linked-el length="15" name="%5" offset="2607" path="%3"/>
+   <linked-el length="19" name="%5" offset="2509" path="%3"/>
+   <linked-el length="25" name="%5" offset="2141" path="%3"/>
+   <linked-el length="15" name="%6" offset="2410" path="%1"/>
+   <linked-el length="15" name="%6" offset="2502" path="%1"/>
+   <linked-el length="24" name="%6" offset="2094" path="%1"/>
+   <linked-el length="24" name="%6" offset="2285" path="%1"/>
+   <linked-el length="28" name="%6" offset="2027" path="%1"/>
+   <linked-el length="35" name="%7" offset="2176" path="%8"/>
+   <linked-el length="41" name="%7" offset="2250" path="%8"/>
+   <linked-el length="32" name="%7" offset="2488" path="%8"/>
+   <linked-el length="42" name="%7" offset="2708" path="%9"/>
+   <linked-el length="37" name="%10" offset="2322" path="%11"/>
+   <linked-el length="36" name="%10" offset="2247" path="%11"/>
+   <linked-el length="19" name="%10" offset="2754" path="%11"/>
+   <linked-el length="32" name="%10" offset="2556" path="%11"/>
+   <linked-el length="23" name="%10" offset="2652" path="%11"/>
+   <linked-el length="40" name="%10" offset="2122" path="%11"/>
+   <linked-el length="23" name="%12" offset="2521" path="%9"/>
+   <linked-el length="36" name="%12" offset="2417" path="%9"/>
+   <linked-el length="24" name="%12" offset="2178" path="%9"/>
+   <linked-el length="25" name="%12" offset="2281" path="%9"/>
+   <linked-el length="24" name="%12" offset="2972" path="%9"/>
+   <linked-el length="19" name="%13" offset="3162" path="%9"/>
+   <linked-el length="23" name="%13" offset="3060" path="%9"/>
+   <linked-el length="36" name="%13" offset="2247" path="%11"/>
+   <linked-el length="19" name="%13" offset="2754" path="%11"/>
+   <linked-el length="23" name="%13" offset="2652" path="%11"/>
+   <linked-el length="40" name="%13" offset="2122" path="%11"/>
+   <linked-el length="19" name="%14" offset="2681" path="%8"/>
+   <linked-el length="35" name="%14" offset="2176" path="%8"/>
+   <linked-el length="41" name="%14" offset="2250" path="%8"/>
+   <linked-el length="32" name="%14" offset="2488" path="%8"/>
+   <linked-el length="42" name="%14" offset="2708" path="%9"/>
+   <linked-el length="18" name="%14" offset="2584" path="%8"/>
+   <linked-el length="37" name="%15" offset="2322" path="%11"/>
+   <linked-el length="36" name="%15" offset="2247" path="%11"/>
+   <linked-el length="32" name="%15" offset="2556" path="%11"/>
+   <linked-el length="40" name="%15" offset="2122" path="%11"/>
+   <linked-el length="19" name="%16" offset="2681" path="%8"/>
+   <linked-el length="35" name="%16" offset="2176" path="%8"/>
+   <linked-el length="18" name="%16" offset="2584" path="%8"/>
+   <linked-el length="24" name="%17" offset="2094" path="%1"/>
+   <linked-el length="24" name="%17" offset="2285" path="%1"/>
+   <linked-el length="28" name="%17" offset="2027" path="%1"/>
+   <linked-el length="23" name="%18" offset="2521" path="%9"/>
+   <linked-el length="36" name="%18" offset="2417" path="%9"/>
+   <linked-el length="24" name="%18" offset="2178" path="%9"/>
+   <linked-el length="25" name="%18" offset="2281" path="%9"/>
+   <linked-el length="19" name="%18" offset="3162" path="%9"/>
+   <linked-el length="23" name="%18" offset="3060" path="%9"/>
+   <linked-el length="24" name="%18" offset="2972" path="%9"/>
+   <linked-el length="36" name="%19" offset="2417" path="%9"/>
+   <linked-el length="24" name="%19" offset="2178" path="%9"/>
+   <linked-el length="25" name="%19" offset="2281" path="%9"/>
   </el>
  </validation>
  <aliases>
-  <alias path="/ger-curriculoWeb/WebContent/index.xhtml" value="%1"/>
   <alias
    path="/ger-curriculoClient/ejbModule/br/com/entidade/Empresa.java" value="%0"/>
-  <alias path="/ger-curriculoWeb/src/managedbean/EmpresaMB.java" value="%2"/>
-  <alias path="empresaMB" value="%3"/>
+  <alias path="cursosMB" value="%2"/>
+  <alias path="/ger-curriculoWeb/src/managedbean/CursosMB.java" value="%4"/>
+  <alias
+   path="/ger-curriculoClient/ejbModule/br/com/entidade/Curso.java" value="%5"/>
+  <alias path="empresaMB" value="%6"/>
+  <alias path="/ger-curriculoWeb/src/managedbean/AreaDeAtuacaoMB.java" value="%7"/>
+  <alias path="tipoLoginMB" value="%10"/>
+  <alias
+   path="/ger-curriculoWeb/WebContent/paginas-admin/login-cad.xhtml" value="%9"/>
+  <alias path="areaDeAtuacaoMB" value="%14"/>
+  <alias
+   path="/ger-curriculoClient/ejbModule/br/com/entidade/TipoLogin.java" value="%13"/>
+  <alias path="/ger-curriculoWeb/src/managedbean/LoginMB.java" value="%12"/>
+  <alias path="/ger-curriculoWeb/WebContent/index.xhtml" value="%1"/>
+  <alias
+   path="/ger-curriculoClient/ejbModule/br/com/entidade/AreaAtuacao.java" value="%16"/>
+  <alias path="/ger-curriculoWeb/src/managedbean/TipoLoginMB.java" value="%15"/>
+  <alias path="/ger-curriculoWeb/src/managedbean/EmpresaMB.java" value="%17"/>
+  <alias
+   path="/ger-curriculoWeb/WebContent/paginas-admin/curso-cad.xhtml" value="%3"/>
+  <alias path="loginMB" value="%18"/>
+  <alias
+   path="/ger-curriculoWeb/WebContent/paginas-admin/tipo-login-cad.xhtml" value="%11"/>
+  <alias
+   path="/ger-curriculoWeb/WebContent/paginas-admin/area-atuacao-cad.xhtml" value="%8"/>
+  <alias
+   path="/ger-curriculoClient/ejbModule/br/com/entidade/Login.java" value="%19"/>
  </aliases>
 </kb-project>

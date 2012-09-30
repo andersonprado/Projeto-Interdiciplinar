@@ -1,0 +1,25 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import br.com.entidade.Login;
+
+public class LoginRepositorioImplement implements LoginRepositorio {
+
+	@PersistenceContext
+	private EntityManager manager;
+	@Override
+	public void adiciona(Login login) {
+		manager.persist(login);
+	}
+
+	@Override
+	public List<Login> getLista() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

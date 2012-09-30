@@ -1,0 +1,37 @@
+package clienterepositorio;
+
+import java.util.List;
+
+
+import javax.ejb.Remote;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+
+import br.com.entidade.Empresa;
+import br.com.entidade.TipoLogin;
+
+@Stateless
+
+@Remote(EmpresaRepositorio.class)
+public class TipoDeLoginRepositorioImplement implements TipoDeLoginRepositorio {
+
+	@PersistenceContext
+	private EntityManager manager;
+
+	
+
+	@Override
+	public void adiciona(TipoLogin tipoLogin) {
+		manager.persist(tipoLogin);
+	}
+
+	@Override
+	public List<TipoLogin> getTipoLogin() {
+		TypedQuery<TipoLogin> query = manager.createQuery(
+				"select cl from TipoLogin cl", TipoLogin.class);
+
+		return query.getResultList();
+	}
+}

@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458077796
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458077866
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458079640
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1348458085191
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458085642
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458089746
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458091174
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458091699
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.RunLast",1348458091715
+opened,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458091788
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458091831
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458093692
+closed,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458093692
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458095283
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458098748
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458103405
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458104009
+error,log,,,"GlassFish: error ",1348458104379
+error,log,,,"GlassFish: deploy is failing=",1348458104380
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458104383
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458104473
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458106015
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348458106775
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458123441
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458124614
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348458127015
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458129640
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458139911
+error,log,,,"GlassFish: error ",1348458140269
+error,log,,,"GlassFish: deploy is failing=",1348458140269
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458140272
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458140352
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458141928
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458154600
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458154771
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458155135
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458155482
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348458158256
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458172391
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458181618
+error,log,,,"GlassFish: error ",1348458181922
+error,log,,,"GlassFish: deploy is failing=",1348458181922
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458181935
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458181986
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458183564
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348458185588
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458191923
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458199236
+error,log,,,"GlassFish: error ",1348458199549
+error,log,,,"GlassFish: deploy is failing=",1348458199550
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458199553
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458199630
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458200987
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458214058
+error,log,,,"GlassFish: error ",1348458214467
+error,log,,,"GlassFish: deploy is failing=",1348458214468
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458214471
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458214560
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458215605
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458226849
+error,log,,,"GlassFish: error ",1348458227218
+error,log,,,"GlassFish: deploy is failing=",1348458227219
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458227221
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458227296
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458228749
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAutomatically",1348458234363
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348458237305
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458241756
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458242114
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458242419
+executed,command,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui.format.document",1348458244867
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458245371
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458251927
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458251947
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348458272699
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458273994
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458276017
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458277236
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458283149
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458288471
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458291977
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458292005
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458294985
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348458298880
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458299922
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458300547
+executed,command,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui.format.document",1348458302549
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458302972
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458310555
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458316194
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458317871
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458317894
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458321503
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458323090
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458323119
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458331257
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458333617
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458334672
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458335436
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458335458
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458338960
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458341254
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458341278
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458343074
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458345746
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458345768
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458349140
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458349589
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458349614
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458350036
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458353060
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458353075
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458355939
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458356693
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458356721
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458360596
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458361871
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458362535
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458365807
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458365837
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458369353
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458370323
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458370345
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458375053
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458375868
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458375893
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458380546
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458381381
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458381410
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458383393
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458408716
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458408742
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458412287
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348458414970
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458416186
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458418889
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458422157
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458422183
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458424133
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458430498
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348458430525
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458432563
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458432772
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458432921
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348458435464
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458436610
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458441200
+executed,command,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui.format.document",1348458441714
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458442142
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAutomatically",1348458445472
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348458450736
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458452066
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458452953
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458453760
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.RunLast",1348458453773
+error,log,,,"An internal error occurred during: ""Launching client"".",1348458453777
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458453784
+opened,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458453894
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458453925
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458453957
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458455766
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458455988
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348458458162
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458461596
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458461697
+closed,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458461697
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458463842
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458464829
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.RunLast",1348458464842
+opened,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458464932
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458464983
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458467977
+closed,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458467978
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1348458469442
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458471582
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458473018
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458478670
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458479493
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458481498
+error,log,,,"GlassFish: error ",1348458481899
+error,log,,,"GlassFish: deploy is failing=",1348458481900
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458481921
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458481997
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458484002
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1348458491623
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458492105
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.RunLast",1348458494873
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458494881
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458495921
+started,bundle,org.jboss.tools.common.jdt.debug,3.3.1.v20120715-0209-H81-Final,"org.jboss.tools.common.jdt.debug",1348458496817
+started,bundle,org.jboss.tools.common.jdt.debug.ui,3.3.1.v20120715-0209-H81-Final,"org.jboss.tools.common.jdt.debug.ui",1348458496818
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458498048
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458499073
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458499928
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.RunLast",1348458499940
+opened,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458500035
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458500100
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458502024
+closed,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458502024
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458502979
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458517004
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458518884
+executed,command,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui.format.document",1348458524104
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458524603
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458526311
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458526311
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1348458527235
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458527758
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458527841
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458532702
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458533264
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348458536241
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458539789
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458540764
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458552096
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458552401
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458553029
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458556949
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458558463
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458559090
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.RunLast",1348458559103
+opened,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458559180
+activated,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458559239
+activated,editor,org.jboss.tools.jst.jsp,3.3.1.v20120715-0241-H93-Final,"org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor",1348458561182
+closed,editor,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser.editor",1348458561183
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458562122
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458570830
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458571027
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458572501
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458573092
+error,log,,,"GlassFish: error ",1348458573445
+error,log,,,"GlassFish: deploy is failing=",1348458573445
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458573448
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458573540
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458574973
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1348458576672
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348458579922
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458586372
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458589776
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458589828
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458593422
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458604180
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458604578
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458605257
+error,log,,,"GlassFish: error ",1348458605540
+error,log,,,"GlassFish: deploy is failing=",1348458605541
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458605543
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458605619
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458607007
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348458609010
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458614431
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458625755
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458625807
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458626098
+executed,command,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui.format.document",1348458627626
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458628096
+error,log,,,"GlassFish: error ",1348458628461
+error,log,,,"GlassFish: deploy is failing=",1348458628462
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458628464
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458628525
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458629875
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348458631713
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458638981
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458651927
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348458651987
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348458654263
+executed,command,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui.format.document",1348458655137
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348458655589
+error,log,,,"GlassFish: error ",1348458655859
+error,log,,,"GlassFish: deploy is failing=",1348458655860
+error,log,,,"cannot Deploy ger-curriculoEAR",1348458655863
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458655926
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458656843
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348458657685
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348458667069

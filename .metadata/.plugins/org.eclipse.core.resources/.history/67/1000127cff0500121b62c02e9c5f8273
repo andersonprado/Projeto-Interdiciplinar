@@ -1,0 +1,14 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import javax.ejb.Remote;
+
+import br.com.entidade.TipoLogin;
+
+@Remote(TipoLoginRepositorio.class)
+public interface TipoLoginRepositorio {
+	public void adiciona(TipoLogin tipo);
+
+	public List<TipoLogin> getTipoLogin();
+}

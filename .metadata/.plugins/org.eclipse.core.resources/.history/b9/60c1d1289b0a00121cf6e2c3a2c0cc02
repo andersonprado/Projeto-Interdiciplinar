@@ -1,0 +1,27 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import br.com.entidade.Curso;
+
+public class CursosRepositorioImplement implements CursosRepositorio {
+
+	@PersistenceContext
+	private EntityManager manager;
+
+	@Override
+	public void adiciona(Curso curso) {
+		manager.persist(curso);
+
+	}
+
+	@Override
+	public List<Curso> getTipoLogin() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

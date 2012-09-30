@@ -1,0 +1,21 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import br.com.entidade.Login;
+
+public class LoginRepositorioImplement implements LoginRepositorio {
+
+	@Override
+	public void adiciona(Login login) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Login> getLista() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

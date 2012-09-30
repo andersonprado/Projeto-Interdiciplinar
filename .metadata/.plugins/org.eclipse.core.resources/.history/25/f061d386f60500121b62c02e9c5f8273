@@ -1,0 +1,12 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import br.com.entidade.TipoLogin;
+
+public interface TipoDeLoginRepositorio {
+
+	public void adiciona(TipoLogin tipoLogin);
+
+	public List<TipoLogin> getTipoLogin();
+}

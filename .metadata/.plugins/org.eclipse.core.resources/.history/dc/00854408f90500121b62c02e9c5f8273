@@ -1,0 +1,21 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import br.com.entidade.TipoLogin;
+
+public class TipoLoginRepositorioImplement implements TipoLoginRepositorio{
+
+	@Override
+	public void adiciona(TipoLogin tipo) {
+		manager.persist(tipo);
+		
+	}
+
+	@Override
+	public List<TipoLogin> getTipoLogin() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

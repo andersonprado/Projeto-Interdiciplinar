@@ -1,0 +1,34 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import javax.ejb.Remote;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+
+import br.com.entidade.AreaAtuacao;
+import br.com.entidade.Empresa;
+
+@Stateless
+@Remote(EmpresaRepositorio.class)
+public class AreaAtuacaoRepositorioImplement implements AreaAtuacaoRepositorio {
+
+	@PersistenceContext
+	private EntityManager manager;
+
+	@Override
+	public void adiciona(AreaAtuacao atuacao) {
+		manager.persist(AreaAtuacao);
+
+	}
+
+	@Override
+	public List<AreaAtuacao> getAreaAtuacao() {
+		TypedQuery<AreaAtuacao> query = manager.createQuery(
+				"select cl from AreaAtuacao cl", Empresa.class);
+
+		return query.getResultList();
+	}
+}

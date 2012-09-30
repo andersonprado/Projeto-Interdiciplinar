@@ -1,26 +1,34 @@
 package br.com.entidade;
 
 import java.io.Serializable;
-
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Transient;
+
 
 @Entity
 @Table(name = "login")
 public class Login implements Serializable {
-
+	@Transient
 	private static final long serialVersionUID = 1L;
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id_login")
 	private int id;
 	private String user;
 	private String senha;
 	
+	@OneToOne
+	private TipoLogin tipo = new TipoLogin();
 	
-	@OneToMany
-	private TipoDeTelefone tipo;
+	@OneToOne
+	private Usuario usuario = new Usuario();
 
 	public int getId() {
 		return id;
@@ -46,12 +54,20 @@ public class Login implements Serializable {
 		this.senha = senha;
 	}
 
-	public TipoDeTelefone getTipo() {
+	public TipoLogin getTipo() {
 		return tipo;
 	}
 
-	public void setTipo(TipoDeTelefone tipo) {
+	public void setTipo(TipoLogin tipo) {
 		this.tipo = tipo;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
 	}
 
 }

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=ger-curriculoClient/C:\/Program Files\/Java\/jdk1.6.0_35\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1347155138090"/>
+<typeInfo handle="=ger-curriculoClient/ejbModule&lt;clienterepositorio{AreaAtuacaoRepositorio.java[AreaAtuacaoRepositorio" modifiers="513" timestamp="1348965495922"/>
+<typeInfo handle="=ger-curriculo/C:\/Program Files\/Java\/jdk1.6.0_35\/jre\/lib\/rt.jar&lt;sun.awt(AWTAccessor$CursorAccessor.class[CursorAccessor" modifiers="1545" timestamp="1347155138090"/>
+<typeInfo handle="=ger-curriculoClient/ejbModule&lt;clienterepositorio{CursosRepositorio.java[CursosRepositorio" modifiers="513" timestamp="1348966740197"/>
+<typeInfo handle="=ger-curriculoClient/ejbModule&lt;clienterepositorio{LoginRepositorio.java[LoginRepositorio" modifiers="513" timestamp="1348968916983"/>
+<typeInfo handle="=ger-curriculo/E:\/Servidores Web\/Nova pasta\/glassfish3\/glassfish\/modules\/org.eclipse.persistence.core.jar&lt;org.eclipse.persistence.sessions(Login.class[Login" modifiers="1537" timestamp="1342021110000"/>
 </typeInfoHistroy>

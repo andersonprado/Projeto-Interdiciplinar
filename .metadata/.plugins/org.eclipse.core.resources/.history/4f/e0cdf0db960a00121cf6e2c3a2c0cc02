@@ -1,0 +1,12 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import br.com.entidade.AreaAtuacao;;
+
+public class AreaAtuacaoRepositorio {
+
+	public void adiciona(Empresa empresa);
+
+	public List<Empresa> getEmpresas();
+}

@@ -1,0 +1,27 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import br.com.entidade.TipoLogin;
+
+public class TipoLoginRepositorioImplement implements TipoLoginRepositorio{
+	
+	@PersistenceContext
+	private EntityManager manager;
+	
+	@Override
+	public void adiciona(TipoLogin tipo) {
+		manager.persist(tipo);
+		
+	}
+
+	@Override
+	public List<TipoLogin> getTipoLogin() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

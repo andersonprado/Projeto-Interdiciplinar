@@ -1,0 +1,21 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import br.com.entidade.Curso;
+
+public class CursosRepositorioImplement implements CursosRepositorio {
+
+	@Override
+	public void adiciona(Curso curso) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Curso> getTipoLogin() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,18 @@
+package clienterepositorio;
+
+public class Snippet {
+	<div class="block" id="block-text">
+					<div class="secondary-navigation">
+						<ul class="wat-cf">
+							<li><h:link value="Tipo de Login"
+									outcome="tipo-login-cad.xhtml" /></li>
+							<li><h:link value="Area Atuação"
+									outcome="area-atuacao-cad.xhtml" /></li>
+							<li><a href="#block-forms">item 3</a></li>
+							<li><a href="#block-messages">item 4</a></li>
+							<li><a href="#block-forms-2">item 5</a></li>
+							<li><a href="#block-lists">item 6</a></li>
+						</ul>
+					</div>
+}
+

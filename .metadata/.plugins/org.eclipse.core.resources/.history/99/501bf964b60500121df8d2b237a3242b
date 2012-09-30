@@ -1,0 +1,13 @@
+package clienterepositorio;
+
+public class GeraTabelas {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+
+	}
+
+}

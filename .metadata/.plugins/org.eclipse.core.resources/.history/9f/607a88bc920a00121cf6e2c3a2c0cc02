@@ -1,0 +1,45 @@
+package managedbean;
+
+import java.util.List;
+
+import javax.ejb.EJB;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
+import clienterepositorio.AreaDeAtuacaoRepositorio;
+import clienterepositorio.TipoLoginRepositorio;
+import br.com.entidade.AreaAtuacao;
+
+
+@ManagedBean
+@RequestScoped
+public class AreaDeAtuacaoMB {
+	@EJB
+	private AreaDeAtuacaoRepositorio repositorio;
+	private AreaDeAtuacao area = new AreaDeAtuacao();
+	private List<AreaDeAtuacao> areacache;
+
+	public String adiciona() {
+		repositorio.adiciona(this.tipoLogin);
+		this.tipoLogin = new TipoLogin();
+		this.areacache = null;
+		return "";
+	}
+
+	public List<TipoLogin> getListaTipoLogin() {
+		if (this.areacache == null) {
+			this.areacache = this.repositorio.listaDeAreas();
+
+		}
+		return this.areacache;
+	}
+
+	public void setTipoLogin(AreaAtuacao area) {
+		this.area = area;
+	}
+
+	public AreaAtuacao getArea() {
+		return area;
+	}
+
+}

@@ -32,7 +32,7 @@ public class ListarEmpresas {
 					.lookup("java:global/ger-curriculoEAR/ger-curriculo/EmpresaRepositorioImplement");
 
 			for (Empresa emp : remote.getEmpresas())
-				System.out.println(emp.getId() + " - " + emp.getData());
+			System.out.println(emp.getCodEmpresa() + " - " + emp.getNome());
 
 		} catch (NamingException e) {
 

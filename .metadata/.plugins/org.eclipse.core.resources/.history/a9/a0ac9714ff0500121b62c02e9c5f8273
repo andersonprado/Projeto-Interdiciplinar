@@ -1,0 +1,29 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+import br.com.entidade.TipoLogin;
+
+public class TipoLoginRepositorioImplement implements TipoLoginRepositorio {
+
+	@PersistenceContext
+	private EntityManager manager2;
+
+	@Override
+	public void adiciona(TipoLogin tipo) {
+		manager2.persist(tipo);
+
+	}
+
+	@Override
+	public List<TipoLogin> getTipoLogin() {
+		TypedQuery<TipoLogin> query = manager2.createQuery(
+				"select cl from TipoLogin cl", TipoLogin.class);
+
+		return query.getResultList();
+	}
+
+}

@@ -1,0 +1,23 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import br.com.entidade.AreaAtuacao;
+
+public class AreaAtuacaoRepositorioImplement implements AreaAtuacaoRepositorio {
+
+	@Override
+	public void adiciona(AreaAtuacao area) {
+		manager2.persist(area);
+
+	}
+
+	@Override
+	public List<AreaAtuacao> getListaArea() {
+		TypedQuery<AreaAtuacao> query = manager2.createQuery(
+				"select cl from AreaAtuacao cl", AreaAtuacao.class);
+
+		return query.getResultList();
+	}
+
+}

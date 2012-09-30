@@ -1,0 +1,10 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import br.com.entidade.AreaAtuacao;
+
+public class AreaAtuacaoRepositorioImplement implements AreaAtuacaoRepositorio {
+
+
+}
