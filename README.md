@@ -6,6 +6,7 @@ Universidade Presbiteriana Mackenzie
 
 aluno: Anderson Luiz de Almeida Prado
 
+
 Tecnologias utilizadas:
 
 EJB 3.1
@@ -16,4 +17,4 @@ JSF 2.0 com Primefaces
 
 Servidor Web Glassfish
 
-Mecanismo de login JAAS
+Mecanismo de login e controle de acesso: JAAS
