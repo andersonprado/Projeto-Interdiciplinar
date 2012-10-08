@@ -54,38 +54,57 @@
 
 					<div class="content">
 						<br /> <br />
-						<h2 class="title" style="text-align: center;">
-							<h:outputText value="Administrativo" />
-						</h2>
+
 						<div class="inner">
 							<br />
 							<h2 class="title" style="text-align: center;">
-								<h:outputText value="Cadastro Cursos" />
+								<h:outputText value="Administrativo" />
 							</h2>
-							<br /> <br />
+
 							<div style="margin-bottom: 400px">
 
 								<h:form style="text-align: center;">
+									<p:panel header="Cadastro de Cursos "><br />
+										<h:outputLabel value="Curso " />
+										<h:inputText value="#{cursosMB.curso.nome}" />
 
-									<h:outputLabel value="Curso " />
-									<h:inputText value="#{cursosMB.curso.nome}" />
-
-									<h:commandButton action="#{cursosMB.adiciona}" value="Salvar" />
+										<h:commandButton action="#{cursosMB.adiciona}" value="Salvar" /><br />
+									</p:panel>
 								</h:form>
 								<br /> <br />
-								<h2 style="text-align: center;">
-									<h:outputText value="Tipos Existentes" />
-								</h2>
-								<h:dataTable value="#{cursosMB.lista}" var="item">
-									<h:column>
-										<h:outputText value="#{item.codCurso}" />
-									</h:column>
 
-									<h:column>
-										<h:outputText value="#{item.nome}" />
-									</h:column>
-								</h:dataTable>
 
+
+
+
+								<h:form prependId="false">
+
+									<p:dataTable id="dataTable" var="item"
+										value="#{cursosMB.lista}">
+
+										<f:facet name="header">
+											<h:outputLabel value="Lista de Cursos Cadastrados" />
+										</f:facet>
+
+										<p:column>
+											<f:facet name="header">
+												<h:outputText value="Codigo do Curso" />
+
+											</f:facet>
+
+											<h:outputText value="#{item.codCurso}" />
+
+										</p:column>
+
+										<p:column headerText="Nome">
+											<h:outputText value="#{item.nome}" />
+										</p:column>
+
+
+
+									</p:dataTable>
+
+								</h:form>
 
 							</div>
 							<br />
@@ -109,9 +128,9 @@
 						<p>......</p>
 					</div>
 				</div>
-				<div class="block notice">
+				<div class="block notice" align="center">
 					<h4>Calendario</h4>
-					<br /> <br /> <br /> <br /> <br />
+					<p:calendar mode="inline" id="inlineCal" />
 				</div>
 			</div>
 		</div>

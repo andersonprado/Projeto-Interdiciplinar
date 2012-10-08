@@ -9,9 +9,9 @@
 <h:head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Gerenciador de Curriculos</title>
-	<link rel="stylesheet" href="stylesheets/base.css" type="text/css"
+	<link rel="stylesheet" href="../stylesheets/base.css" type="text/css"
 		media="screen" />
-	<link rel="stylesheet" href="stylesheets/themes/default/style.css"
+	<link rel="stylesheet" href="../stylesheets/themes/default/style.css"
 		type="text/css" media="screen" />
 
 
@@ -45,6 +45,8 @@
 							<li><a href="#block-lists">item 6</a></li>
 						</ul>
 					</div>
+					
+					
 					<div class="content">
 						<h2 class="title" style="margin-top: 50px; text-align: center;">Gerenciamento
 							de Empresas</h2>
@@ -56,20 +58,20 @@
 
 							<div style="margin-bottom: 400px; text-align: center;">
 								<br /> <br />
+								<div align="center">
+									<h:form>
+										<p:panel id="cadEmpresa" header="Cadastro de Empresas">
+											<h:panelGrid columns="4" cellspacing="8" style="left: 50%; ">
+												<h:outputLabel value="Nome da Empresa: "
+													style="font-weight:bold" />
+												<p:inputText id="empresa" value="#{empresaMB.empresa.cnpj}" />
 
-								<h:form>
-									<p:panel id="cadEmpresa" header="Cadastro de Empresas">
-										<h:panelGrid columns="4" cellspacing="8" style="left: 50%; ">
-											<h:outputLabel value="Nome da Empresa: "
-												style="font-weight:bold" />
-											<p:inputText id="empresa" value="#{empresaMB.empresa.cnpj}" />
-
-											<p:commandButton action="#{empresaMB.adiciona}"
-												value="Inserir" />
-										</h:panelGrid>
-									</p:panel>
-								</h:form>
-
+												<p:commandButton action="#{empresaMB.adiciona}"
+													value="Inserir" />
+											</h:panelGrid>
+										</p:panel>
+									</h:form>
+								</div>
 								<h2 style="margin-top: 50px;">
 									<h:outputText value="Empresas" />
 								</h2>
@@ -104,7 +106,7 @@
 						<p>......</p>
 					</div>
 				</div>
-				<div class="block notice">
+				<div class="block notice" align="center">
 					<h4>Calendario</h4>
 
 					<p:calendar mode="inline" id="inlineCal" />

@@ -58,34 +58,57 @@
 						</h2>
 						<div class="inner">
 							<br />
-							<h2 class="title" style="text-align: center;">Cadastro de
-								tipo de Login</h2>
-							<br /> <br />
-							<div style="margin-bottom: 400px">
+
+
+
+							<div style="margin-bottom: 400px" align="center">
 
 								<h:form style="text-align: center;">
-									<h:outputLabel value="Codigo do Tipo " />
-									<h:inputText value="#{tipoLoginMB.tipoLogin.codTipoLogin}" />
+									<p:panel header="Cadastro de tipo de Login "><div align="center">
+										<h:panelGrid columns="3" cellspacing="10">
+											<h:outputLabel value="Codigo do Tipo: " />
+											<h:inputText value="#{tipoLoginMB.tipoLogin.codTipoLogin}" />
+											<br />
+											<h:outputLabel value="Tipo de Login: " />
+											<h:inputText value="#{tipoLoginMB.tipoLogin.nomeTipo}" />
 
-									<h:outputLabel value="Tipo de Login " />
-									<h:inputText value="#{tipoLoginMB.tipoLogin.nomeTipo}" />
-
-									<h:commandButton action="#{tipoLoginMB.adiciona}"
-										value="Salvar" />
+											<h:commandButton action="#{tipoLoginMB.adiciona}"
+												value="Salvar" />
+										</h:panelGrid>	</div>
+									</p:panel>
 								</h:form>
-								<br /> <br />
-								<h2 style="text-align: center;">
-									<h:outputText value="Tipos Existentes" />
-								</h2>
-								<h:dataTable value="#{tipoLoginMB.listaTipoLogin}" var="item">
-									<h:column>
-										<h:outputText value="#{item.codTipoLogin}" />
-									</h:column>
+							
+								<br /> <br /> <br />
 
-									<h:column>
-										<h:outputText value="#{item.nomeTipo}" />
-									</h:column>
-								</h:dataTable>
+								<h:form prependId="false">
+
+									<p:dataTable id="dataTable" var="item"
+										value="#{tipoLoginMB.listaTipoLogin}">
+
+										<f:facet name="header">
+											<h:outputLabel value="Lista de Tipos de Login" />
+										</f:facet>
+
+										<p:column>
+											<f:facet name="header">
+												<h:outputLabel value="Codigo" />
+
+											</f:facet>
+
+											<h:outputText value="#{item.codTipoLogin}" />
+
+										</p:column>
+
+										<p:column headerText="Nome">
+											<h:outputText value="#{item.nomeTipo}" />
+										</p:column>
+
+
+
+									</p:dataTable>
+
+								</h:form>
+
 
 
 							</div>
@@ -108,9 +131,9 @@
 						<p>......</p>
 					</div>
 				</div>
-				<div class="block notice">
+				<div class="block notice" align="center">
 					<h4>Calendario</h4>
-					<br /> <br /> <br /> <br /> <br />
+					<p:calendar mode="inline" id="inlineCal" />
 				</div>
 			</div>
 		</div>
