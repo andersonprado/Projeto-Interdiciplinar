@@ -18,8 +18,9 @@ public class TipoLoginRepositorioImplement implements TipoLoginRepositorio {
 
 	@Override
 	public void adiciona(TipoLogin tipo) {
+		manager2.getTransaction().begin();
 		manager2.persist(tipo);
-
+		manager2.getTransaction().commit();
 	}
 
 	@Override
