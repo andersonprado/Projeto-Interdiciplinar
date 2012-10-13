@@ -18,9 +18,9 @@ public class TipoLoginRepositorioImplement implements TipoLoginRepositorio {
 
 	@Override
 	public void adiciona(TipoLogin tipo) {
-		manager2.getTransaction().begin();
+//		manager2.getTransaction().begin();
 		manager2.persist(tipo);
-		manager2.getTransaction().commit();
+//		manager2.getTransaction().commit();
 	}
 
 	@Override
@@ -29,6 +29,11 @@ public class TipoLoginRepositorioImplement implements TipoLoginRepositorio {
 				"select cl from TipoLogin cl", TipoLogin.class);
 
 		return query.getResultList();
+	}
+
+	@Override
+	public TipoLogin getTipo(int codigo) {
+		return manager2.find(TipoLogin.class, codigo);
 	}
 
 }
