@@ -17,10 +17,12 @@ public class Empresa implements Serializable {
 	 */
 	@Transient
 	private static final long serialVersionUID = 1L;
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "cod_empresa")
 	private int codEmpresa;
+	
 	@Column(name = "nome_empresa")
 	private String nome;
 	private String cnpj;

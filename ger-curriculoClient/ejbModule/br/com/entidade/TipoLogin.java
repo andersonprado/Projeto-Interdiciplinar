@@ -36,4 +36,6 @@ public class TipoLogin implements Serializable {
 		this.nomeTipo = nomeTipo;
 	}
 
+	
+
 }

@@ -27,11 +27,11 @@ public class Vagas implements Serializable {
 	@Temporal(TemporalType.DATE)
 	private Date dataCriacao;
 
-	@OneToOne(mappedBy = "cod_empresa")
-	private Empresa empresa;
+//	@OneToOne(mappedBy = "cod_empresa")
+//	private Empresa empresa;
 
-	@OneToOne(mappedBy = "cod")
-	private Curriculo curriculo;
+//	@OneToOne(mappedBy = "id_curriculo")
+//	private Curriculo curriculo;
 
 	
 
@@ -60,21 +60,21 @@ public class Vagas implements Serializable {
 		this.dataCriacao = dataCriacao;
 	}
 
-	public Empresa getEmpresa() {
-		return empresa;
-	}
+//	public Empresa getEmpresa() {
+//		return empresa;
+//	}
+//
+//	public void setEmpresa(Empresa empresa) {
+//		this.empresa = empresa;
+//	}
 
-	public void setEmpresa(Empresa empresa) {
-		this.empresa = empresa;
-	}
-
-	public Curriculo getCurriculo() {
-		return curriculo;
-	}
-
-	public void setCurriculo(Curriculo curriculo) {
-		this.curriculo = curriculo;
-	}
+//	public Curriculo getCurriculo() {
+//		return curriculo;
+//	}
+//
+//	public void setCurriculo(Curriculo curriculo) {
+//		this.curriculo = curriculo;
+//	}
 
 
 

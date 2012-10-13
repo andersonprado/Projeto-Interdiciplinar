@@ -31,8 +31,8 @@ public class CandidatoVaga implements Serializable {
 	@ManyToOne
 	private Vagas vaga;
 
-	@OneToOne(mappedBy = "cod_curriculo")
-	private Curriculo curriculo;
+//	@OneToOne(mappedBy = "id_curriculo")
+//	private Curriculo curriculo;
 
 	public int getCodCandVaga() {
 		return codCandVaga;
@@ -51,14 +51,14 @@ public class CandidatoVaga implements Serializable {
 	}
 
 	
-
-	public Curriculo getCurriculo() {
-		return curriculo;
-	}
-
-	public void setCurriculo(Curriculo curriculo) {
-		this.curriculo = curriculo;
-	}
+//
+//	public Curriculo getCurriculo() {
+//		return curriculo;
+//	}
+//
+//	public void setCurriculo(Curriculo curriculo) {
+//		this.curriculo = curriculo;
+//	}
 
 	public Vagas getVaga() {
 		return vaga;
