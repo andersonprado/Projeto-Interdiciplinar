@@ -3,6 +3,7 @@ package managedbean;
 import java.util.ArrayList;
 import java.util.List;
 import javax.ejb.EJB;
+import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 import javax.faces.model.SelectItem;
@@ -20,7 +21,7 @@ public class LoginMB {
 	private TipoLoginRepositorio repositorioTipoLogin;
 
 	private Login Login = new Login();
-
+	private Login listaTodos;
 	private List<Login> loginCache;
 	private List<SelectItem> tipoLogin;
 
@@ -29,6 +30,7 @@ public class LoginMB {
 	public String adiciona() {
 		repositorio.adiciona(this.Login);
 		this.Login = new Login();
+
 		this.loginCache = null;
 		return "";
 	}
@@ -45,9 +47,9 @@ public class LoginMB {
 		if (this.tipoLogin == null) {
 			this.tipoLogin = new ArrayList<SelectItem>();
 			List<TipoLogin> tipos = this.repositorioTipoLogin.getTipoLogin();
-			
+
 			this.tipoLogin.add(new SelectItem(null, "Selecione"));
-			
+
 			for (TipoLogin tipo : tipos)
 				this.tipoLogin.add(new SelectItem(tipo, tipo.getnomeTipo()));
 
@@ -67,6 +69,12 @@ public class LoginMB {
 		return listateste = repositorioTipoLogin.getTipoLogin();
 	}
 
-	
+	public Login getListaTodos() {
+		return listaTodos;
+	}
+
+	public void setListaTodos(Login listaTodos) {
+		this.listaTodos = listaTodos;
+	}
 
 }

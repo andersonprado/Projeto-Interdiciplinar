@@ -76,12 +76,16 @@
 										<h:outputLabel value="Senha " />
 										<h:inputText value="#{loginMB.login.senha}" />
 										<h:outputLabel value="Tipo de Login " />
-										
-										<h:selectOneMenu id="tipo" value="#{loginMB.login.tipo}"
-											label="TipoLogin" required="true">
-											<f:selectItems value="#{loginMB.tipoLogin}" />
-											<h:message for="tipo" showSummary="true" showDetail="false"/>
-										</h:selectOneMenu>
+
+
+										<p:selectOneMenu value="#{loginMB.login.tipo}" effect="fade"
+											converter="convertetipo">
+											<f:selectItem itemLabel="Select One" itemValue="" />
+											<f:selectItems value="#{loginMB.listateste}" var="t"
+												itemLabel="#{t.nomeTipo}" itemValue="#{t}" />
+										</p:selectOneMenu>
+
+
 										<br />
 
 
@@ -93,14 +97,17 @@
 								<h2 style="text-align: center;">
 									<h:outputText value="Tipos Existentes" />
 								</h2>
-								<h:dataTable value="#{loginMB.listateste}" var="item">
+								<h:dataTable value="#{loginMB.listaTodos}" var="item">
 									<h:column>
-										<h:outputText value="#{item.codTipoLogin}" />
+										<h:outputText value="#{item.id}" />
 									</h:column>
-
 									<h:column>
-										<h:outputText value="#{item.nomeTipo}" />
+										<h:outputText value="#{item.senha}" />
 									</h:column>
+									<h:column>
+										<h:outputText value="#{item.tipo.nomeTipo}" />
+									</h:column>
+									
 								</h:dataTable>
 
 
