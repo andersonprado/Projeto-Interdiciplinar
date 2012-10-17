@@ -46,8 +46,7 @@
 							<li><h:link value="Area Atuação"
 									outcome="area-atuacao-cad.xhtml" /></li>
 							<li><h:link value="Cursos" outcome="curso-cad.xhtml" /></li>
-
-							<li><h:link value="Login" outcome="login-cad.xhtml" /></li>
+							<li><a href="#block-messages">item 4</a></li>
 							<li><a href="#block-forms-2">item 5</a></li>
 							<li><a href="#block-lists">item 6</a></li>
 						</ul>
@@ -60,55 +59,80 @@
 							<h:outputText value="Administrativo" />
 						</h2>
 						<div class="inner">
-							<br />
-							<h2 class="title" style="text-align: center;">
-								<h:outputText value="Cadastro de
-								Login" />
-							</h2>
 							<br /> <br />
 							<div style="margin-bottom: 400px">
 
-								<h:form>
-									<h:panelGrid columns="2">
-										<h:outputLabel value="User " />
-										<h:inputText value="#{loginMB.login.user}" />
+								<h:form style="text-align: center;">
+									<p:panel header="Cadastro Logins -- Teste ">
+										<div align="center">
+											<h:panelGrid columns="2"  >
 
-										<h:outputLabel value="Senha " />
-										<h:inputText value="#{loginMB.login.senha}" />
-										<h:outputLabel value="Tipo de Login " />
+												<h:outputLabel value="Usuario " />
+												<h:inputText value="#{loginMB.login.user}" />
+
+												<h:outputLabel value="Senha " />
+												<h:inputText value="#{loginMB.login.senha}" />
+
+												<h:outputLabel value="Tipo " />
+												<p:selectOneMenu value="#{loginMB.login.tipo}" effect="fade"
+													converter="convertetipo">
+													<f:selectItem itemLabel="Selecione" itemValue="" />
+													<f:selectItems value="#{loginMB.listateste}" var="t"
+														itemLabel="#{t.nomeTipo}" itemValue="#{t}" />
+												</p:selectOneMenu>
 
 
-										<p:selectOneMenu value="#{loginMB.login.tipo}" effect="fade"
-											converter="convertetipo">
-											<f:selectItem itemLabel="Select One" itemValue="" />
-											<f:selectItems value="#{loginMB.listateste}" var="t"
-												itemLabel="#{t.nomeTipo}" itemValue="#{t}" />
-										</p:selectOneMenu>
+												<br />
+												<h:commandButton action="#{loginMB.adiciona()}"
+													value="Salvar" />
+
+											</h:panelGrid>
+										</div>
 
 
-										<br />
 
 
-										<h:commandButton action="#{areaDeAtuacaoMB.adiciona}"
-											value="Salvar" />
-									</h:panelGrid>
+									</p:panel>
 								</h:form>
 								<br /> <br />
-								<h2 style="text-align: center;">
-									<h:outputText value="Tipos Existentes" />
-								</h2>
-								<h:dataTable value="#{loginMB.listaTodos}" var="item">
-									<h:column>
-										<h:outputText value="#{item.id}" />
-									</h:column>
-									<h:column>
-										<h:outputText value="#{item.senha}" />
-									</h:column>
-									<h:column>
-										<h:outputText value="#{item.tipo.nomeTipo}" />
-									</h:column>
-									
-								</h:dataTable>
+
+
+								<h:form prependId="false">
+
+									<p:dataTable id="dataTable" var="item"
+										value="#{loginMB.logins}">
+
+										<f:facet name="header">
+											<h:outputLabel value="Lista de Logins" />
+										</f:facet>
+
+										<p:column>
+											<f:facet name="header">
+												<h:outputLabel value="Codigo" />
+
+											</f:facet>
+
+											<h:outputText value="#{item.user}" />
+
+										</p:column>
+
+										<p:column headerText="Nome">
+											<h:outputText value="#{item.senha}" />
+										</p:column>
+										<p:column headerText="Codigo Tipo">
+											<h:outputText value="#{item.tipo.codTipoLogin}" />
+										</p:column>
+										<p:column headerText="Nome Tipo">
+											<h:outputText value="#{item.tipo.nomeTipo}" />
+										</p:column>
+									</p:dataTable>
+
+								</h:form>
+
+
+
+
+
 
 
 							</div>
@@ -135,11 +159,12 @@
 				</div>
 				<div class="block notice" align="center">
 					<h4>Calendario</h4>
-					<p:calendar mode="inline" id="inlineCal" />
+					<p:calendar mode="inline" id="inlineCal" style="a" />
 				</div>
 			</div>
 		</div>
 	</div>
 </h:body>
 </html>
+
 
