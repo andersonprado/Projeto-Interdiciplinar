@@ -65,7 +65,7 @@
 								<h:form style="text-align: center;">
 									<p:panel header="Cadastro Logins -- Teste ">
 										<div align="center">
-											<h:panelGrid columns="2"  >
+											<h:panelGrid columns="2">
 
 												<h:outputLabel value="Usuario " />
 												<h:inputText value="#{loginMB.login.user}" />
@@ -124,6 +124,12 @@
 										</p:column>
 										<p:column headerText="Nome Tipo">
 											<h:outputText value="#{item.tipo.nomeTipo}" />
+										</p:column>
+										<p:column headerText="Codigo Usuario">
+											<h:outputText value="#{item.usuario.codUsuario}" />
+										</p:column>
+										<p:column headerText="Usuario">
+											<h:outputText value="#{item.usuario.nome}" />
 										</p:column>
 									</p:dataTable>
 
