@@ -5,20 +5,21 @@
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:p="http://primefaces.org/ui">
 <h:head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Gerenciador de Curriculos</title>
-<link rel="stylesheet" href="stylesheets/base.css" type="text/css"
-	media="screen" />
-<link rel="stylesheet"
-	href="stylesheets/themes/default/style.css" type="text/css"
-	media="screen" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title><h:outputText value="Gerenciador de Curriculos" /></title>
+	<link rel="stylesheet" href="stylesheets/base.css" type="text/css"
+		media="screen" />
+	<link rel="stylesheet" href="stylesheets/themes/default/style.css"
+		type="text/css" media="screen" />
 
 </h:head>
-<body>
+<h:body>
 	<div id="container">
 		<div id="header">
-			<h1 style="text-align: center; color: blue;">Gerenciador de
-				Curriculos</h1>
+			<h1 style="text-align: center; color: blue;">
+				<h:outputText value="Gerenciador de
+				Curriculos" />
+			</h1>
 			<div id="user-navigation">
 				<ul class="wat-cf">
 
@@ -45,25 +46,25 @@
 						</ul>
 					</div>
 					<div class="content">
-						<h2 class="title">Cadastro de Curriculo</h2>
+						<h2 class="title">
+							<h:outputText value="Cadastro de Curriculo" />
+						</h2>
 						<div class="inner">
-							<form action="#" method="get" class="form">
-								<div class="group">
-									<label class="label">Nome</label> <input type="text"
-										class="text_field" />
-								</div>
-								<div class="group">
-									<div class="fieldWithErrors">
-										<label class="label" for="post_title">Email</label> <span
-											class="error"></span>
-									</div>
-									<input type="text" class="text_field" style="width: 354px;" />
-								</div>
-								<div class="group">
-									<label class="label">Data de Nascimento</label> <input
-										type="text" class="text_field" style="width: 162px;" /> <span
-										class="description"></span>
-								</div>
+							<h:form>
+
+								<h:outputLabel value="Nome" />
+								<br />
+								<p:inputText value="" style="width: 354px;" />
+								<br />
+								<h:outputLabel value="Email" />
+								<br />
+								<p:inputText value="" style="width: 354px;" />
+
+								<br />
+								<h:outputLabel value="Data de Nascimento" />
+
+								<p:inputText value="" style="width: 162px;" />
+
 								<div class="group">
 									<label class="label">Sexo</label>
 									<div>
@@ -128,7 +129,7 @@
 											class="text_button_padding link_button" href="#header">Cancel</a>
 									</div>
 								</div>
-							</form>
+							</h:form>
 						</div>
 					</div>
 				</div>
@@ -156,6 +157,6 @@
 			</div>
 		</div>
 	</div>
-</body>
+</h:body>
 </html>
 
