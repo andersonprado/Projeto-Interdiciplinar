@@ -36,6 +36,28 @@ public class TipoLogin implements Serializable {
 		this.nomeTipo = nomeTipo;
 	}
 
-	
+	@Override
+	public int hashCode() {
+		return getcodTipoLogin();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		TipoLogin other = (TipoLogin) obj;
+		if (codTipoLogin != other.codTipoLogin)
+			return false;
+		if (nomeTipo == null) {
+			if (other.nomeTipo != null)
+				return false;
+		} else if (!nomeTipo.equals(other.nomeTipo))
+			return false;
+		return true;
+	}
 
 }

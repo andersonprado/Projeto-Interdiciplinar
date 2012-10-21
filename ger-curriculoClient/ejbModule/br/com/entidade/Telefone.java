@@ -59,4 +59,30 @@ public class Telefone implements Serializable {
 		this.usuario = usuario;
 	}
 
+	@Override
+	public int hashCode() {
+		
+		return getId();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Telefone other = (Telefone) obj;
+		if (id != other.id)
+			return false;
+		if (telefone == null) {
+			if (other.telefone != null)
+				return false;
+		} else if (!telefone.equals(other.telefone))
+			return false;
+		return true;
+	}
+
+	
 }

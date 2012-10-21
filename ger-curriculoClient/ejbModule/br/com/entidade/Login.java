@@ -12,7 +12,6 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-
 @Entity
 @Table(name = "login")
 public class Login implements Serializable {
@@ -25,11 +24,11 @@ public class Login implements Serializable {
 	private int id;
 	private String user;
 	private String senha;
-	
+
 	@OneToOne
 	private TipoLogin tipo = new TipoLogin();
-	
-	@OneToOne
+
+	@OneToOne(cascade = CascadeType.PERSIST)
 	private Usuario usuario = new Usuario();
 
 	public int getId() {
@@ -70,6 +69,30 @@ public class Login implements Serializable {
 
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
+	}
+
+	@Override
+	public int hashCode() {
+		return getId();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Login other = (Login) obj;
+		if (id != other.id)
+			return false;
+		if (user == null) {
+			if (other.user != null)
+				return false;
+		} else if (!user.equals(other.user))
+			return false;
+		return true;
 	}
 
 }

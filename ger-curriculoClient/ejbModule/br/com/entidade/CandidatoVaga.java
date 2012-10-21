@@ -68,4 +68,24 @@ public class CandidatoVaga implements Serializable {
 		this.vaga = vaga;
 	}
 
+	@Override
+	public int hashCode() {
+	
+		return getCodCandVaga();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		CandidatoVaga other = (CandidatoVaga) obj;
+		if (codCandVaga != other.codCandVaga)
+			return false;
+		return true;
+	}
+
 }

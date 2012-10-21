@@ -92,4 +92,24 @@ public class CurriculoCursos implements Serializable {
 		this.curriculo = curriculo;
 	}
 
+	@Override
+	public int hashCode() {
+	
+		return getIdCurriculoCurso();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		CurriculoCursos other = (CurriculoCursos) obj;
+		if (idCurriculoCurso != other.idCurriculoCurso)
+			return false;
+		return true;
+	}
+
 }

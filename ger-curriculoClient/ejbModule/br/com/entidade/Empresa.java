@@ -72,4 +72,29 @@ public class Empresa implements Serializable {
 		this.nome = nome;
 	}
 
+	@Override
+	public int hashCode() {
+		
+		return getCodEmpresa();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Empresa other = (Empresa) obj;
+		if (cnpj == null) {
+			if (other.cnpj != null)
+				return false;
+		} else if (!cnpj.equals(other.cnpj))
+			return false;
+		if (codEmpresa != other.codEmpresa)
+			return false;
+		return true;
+	}
+
 }

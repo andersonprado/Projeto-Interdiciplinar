@@ -38,4 +38,24 @@ public class AreaAtuacao implements Serializable {
 		this.nomeArea = nomeArea;
 	}
 
+	@Override
+	public int hashCode() {
+		
+		return getCodTipo();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		AreaAtuacao other = (AreaAtuacao) obj;
+		if (codTipo != other.codTipo)
+			return false;
+		return true;
+	}
+
 }

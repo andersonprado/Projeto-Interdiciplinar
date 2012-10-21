@@ -35,7 +35,7 @@ public class Usuario implements Serializable {
 	@OneToOne(mappedBy = "usuario")
 	private Endereco endereco;
 
-	@OneToOne(mappedBy="usuario")
+	@OneToOne(mappedBy = "usuario")
 	private Curriculo curriculo;
 
 	@OneToMany(mappedBy = "usuario")
@@ -106,6 +106,30 @@ public class Usuario implements Serializable {
 
 	public void setLogin(Login login) {
 		this.login = login;
+	}
+
+	@Override
+	public int hashCode() {
+		return getCodUsuario();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Usuario other = (Usuario) obj;
+		if (codUsuario != other.codUsuario)
+			return false;
+		if (cpf == null) {
+			if (other.cpf != null)
+				return false;
+		} else if (!cpf.equals(other.cpf))
+			return false;
+		return true;
 	}
 
 }

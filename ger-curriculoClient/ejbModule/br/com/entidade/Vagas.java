@@ -59,22 +59,49 @@ public class Vagas implements Serializable {
 	public void setDataCriacao(Date dataCriacao) {
 		this.dataCriacao = dataCriacao;
 	}
-
+	
 //	public Empresa getEmpresa() {
-//		return empresa;
-//	}
+//	return empresa;
+//}
 //
-//	public void setEmpresa(Empresa empresa) {
-//		this.empresa = empresa;
-//	}
+//public void setEmpresa(Empresa empresa) {
+//	this.empresa = empresa;
+//}
 
-//	public Curriculo getCurriculo() {
-//		return curriculo;
-//	}
+//public Curriculo getCurriculo() {
+//	return curriculo;
+//}
 //
-//	public void setCurriculo(Curriculo curriculo) {
-//		this.curriculo = curriculo;
-//	}
+//public void setCurriculo(Curriculo curriculo) {
+//	this.curriculo = curriculo;
+//}
+	
+	@Override
+	public int hashCode() {
+	
+		return getCodVaga();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Vagas other = (Vagas) obj;
+		if (cargo == null) {
+			if (other.cargo != null)
+				return false;
+		} else if (!cargo.equals(other.cargo))
+			return false;
+		if (codVaga != other.codVaga)
+			return false;
+		return true;
+	}
+
+
 
 
 

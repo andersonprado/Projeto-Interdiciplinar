@@ -85,4 +85,29 @@ public class EnderecoEmpresa implements Serializable {
 		this.empresa = empresa;
 	}
 
+	@Override
+	public int hashCode() {
+		
+		return getId();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		EnderecoEmpresa other = (EnderecoEmpresa) obj;
+		if (id != other.id)
+			return false;
+		if (rua == null) {
+			if (other.rua != null)
+				return false;
+		} else if (!rua.equals(other.rua))
+			return false;
+		return true;
+	}
+
 }
