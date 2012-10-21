@@ -1,0 +1,36 @@
+package managedbean;
+
+import java.util.List;
+
+import javax.ejb.EJB;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+import clienterepositorio.UsuarioRepositorio;
+import br.com.entidade.Usuario;
+
+@ManagedBean
+@RequestScoped
+public class CadastroUserMB {
+	@EJB
+	private UsuarioRepositorio repositorio;
+	private Usuario tipoLogin = new Usuario();
+	private List<Usuario> tipoLogincache;
+
+	public String adiciona() {
+		repositorio.adiciona(this.usuario);
+		this.tipoLogin = new Usuario();
+		this.tipoLogincache = null;
+		return "";
+	}
+
+	public List<Usuario> getListaUsuario() {
+		if (this.tipoLogincache == null) {
+			this.tipoLogincache = this.repositorio2.getUsuario();
+
+		}
+		return this.tipoLogincache;
+	}
+
+	
+
+}

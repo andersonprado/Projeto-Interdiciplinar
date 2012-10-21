@@ -81,10 +81,8 @@
 														itemLabel="#{t.nomeTipo}" itemValue="#{t}" />
 												</p:selectOneMenu>
 
-
 												<br />
-												<h:commandButton action="#{loginMB.adiciona()}"
-													value="Salvar" />
+												<h:commandButton action="#{loginMB.adiciona}" value="Salvar" />
 
 											</h:panelGrid>
 										</div>
@@ -165,7 +163,8 @@
 				</div>
 				<div class="block notice" align="center">
 					<h4>Calendario</h4>
-					<p:calendar mode="inline" id="inlineCal" style="a" />
+					<p:calendar mode="inline" id="inlineCal" />
+					<br />
 				</div>
 			</div>
 		</div>

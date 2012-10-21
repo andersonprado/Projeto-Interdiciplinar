@@ -16,15 +16,27 @@
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/webservices-connector.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/org.eclipse.persistence.antlr.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/org.eclipse.persistence.oracle.jar"/>
-  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/endorsed/webservices-api-osgi.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/org.eclipse.persistence.jpa.modelgen.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/ha-api.jar"/>
+  <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/endorsed/webservices-api-osgi.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.security.jacc.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.servlet.jsp.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/weld-osgi-bundle.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-gf-statsproviders.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/javax.ejb.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-core.jar"/>
+  <path value="E:/Git/projeto/ger-curriculoWeb/WebContent/WEB-INF/lib/primefaces-3.4.1.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-3.4.1.jar/meta-inf/faces-config.xml" project="ger-curriculoWeb"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-3.4.1.jar/meta-inf/primefaces-p.taglib.xml" project="ger-curriculoWeb"/>
+    </library>
+   </libraries>
+  </path>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/endorsed/jaxb-api-osgi.jar"/>
   <path value="E:/Servidores Web/Nova pasta/glassfish3/glassfish/modules/jersey-gf-server.jar">
    <libraries>
@@ -185,103 +197,123 @@
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="15" name="%0" offset="2410" path="%1"/>
-   <linked-el length="15" name="%0" offset="2502" path="%1"/>
-   <linked-el length="28" name="%0" offset="2027" path="%1"/>
-   <linked-el length="23" name="%2" offset="2205" path="%3"/>
-   <linked-el length="19" name="%2" offset="2509" path="%3"/>
-   <linked-el length="15" name="%2" offset="2607" path="%3"/>
-   <linked-el length="25" name="%2" offset="2141" path="%3"/>
-   <linked-el length="20" name="%2" offset="2425" path="%3"/>
-   <linked-el length="23" name="%4" offset="2205" path="%3"/>
-   <linked-el length="25" name="%4" offset="2141" path="%3"/>
-   <linked-el length="20" name="%4" offset="2425" path="%3"/>
-   <linked-el length="19" name="%5" offset="2509" path="%3"/>
-   <linked-el length="15" name="%5" offset="2607" path="%3"/>
-   <linked-el length="25" name="%5" offset="2141" path="%3"/>
-   <linked-el length="15" name="%6" offset="2410" path="%1"/>
-   <linked-el length="15" name="%6" offset="2502" path="%1"/>
-   <linked-el length="24" name="%6" offset="2094" path="%1"/>
-   <linked-el length="28" name="%6" offset="2027" path="%1"/>
-   <linked-el length="24" name="%6" offset="2285" path="%1"/>
-   <linked-el length="35" name="%7" offset="2176" path="%8"/>
-   <linked-el length="41" name="%7" offset="2250" path="%8"/>
-   <linked-el length="32" name="%7" offset="2488" path="%8"/>
-   <linked-el length="42" name="%7" offset="2708" path="%9"/>
-   <linked-el length="37" name="%10" offset="2322" path="%11"/>
-   <linked-el length="36" name="%10" offset="2247" path="%11"/>
-   <linked-el length="32" name="%10" offset="2556" path="%11"/>
-   <linked-el length="19" name="%10" offset="2754" path="%11"/>
-   <linked-el length="23" name="%10" offset="2652" path="%11"/>
-   <linked-el length="40" name="%10" offset="2122" path="%11"/>
-   <linked-el length="24" name="%12" offset="2178" path="%9"/>
-   <linked-el length="36" name="%12" offset="2417" path="%9"/>
-   <linked-el length="23" name="%12" offset="2521" path="%9"/>
-   <linked-el length="25" name="%12" offset="2281" path="%9"/>
-   <linked-el length="24" name="%12" offset="2972" path="%9"/>
-   <linked-el length="23" name="%13" offset="3060" path="%9"/>
-   <linked-el length="19" name="%13" offset="3162" path="%9"/>
-   <linked-el length="36" name="%13" offset="2247" path="%11"/>
-   <linked-el length="19" name="%13" offset="2754" path="%11"/>
-   <linked-el length="23" name="%13" offset="2652" path="%11"/>
-   <linked-el length="40" name="%13" offset="2122" path="%11"/>
-   <linked-el length="19" name="%14" offset="2681" path="%8"/>
-   <linked-el length="35" name="%14" offset="2176" path="%8"/>
-   <linked-el length="41" name="%14" offset="2250" path="%8"/>
-   <linked-el length="32" name="%14" offset="2488" path="%8"/>
-   <linked-el length="42" name="%14" offset="2708" path="%9"/>
-   <linked-el length="18" name="%14" offset="2584" path="%8"/>
-   <linked-el length="37" name="%15" offset="2322" path="%11"/>
-   <linked-el length="36" name="%15" offset="2247" path="%11"/>
-   <linked-el length="32" name="%15" offset="2556" path="%11"/>
-   <linked-el length="40" name="%15" offset="2122" path="%11"/>
-   <linked-el length="19" name="%16" offset="2681" path="%8"/>
-   <linked-el length="35" name="%16" offset="2176" path="%8"/>
-   <linked-el length="18" name="%16" offset="2584" path="%8"/>
-   <linked-el length="24" name="%17" offset="2094" path="%1"/>
-   <linked-el length="28" name="%17" offset="2027" path="%1"/>
-   <linked-el length="24" name="%17" offset="2285" path="%1"/>
-   <linked-el length="24" name="%18" offset="2178" path="%9"/>
-   <linked-el length="36" name="%18" offset="2417" path="%9"/>
-   <linked-el length="23" name="%18" offset="2521" path="%9"/>
-   <linked-el length="25" name="%18" offset="2281" path="%9"/>
-   <linked-el length="23" name="%18" offset="3060" path="%9"/>
-   <linked-el length="19" name="%18" offset="3162" path="%9"/>
-   <linked-el length="24" name="%18" offset="2972" path="%9"/>
-   <linked-el length="24" name="%19" offset="2178" path="%9"/>
-   <linked-el length="36" name="%19" offset="2417" path="%9"/>
-   <linked-el length="25" name="%19" offset="2281" path="%9"/>
+   <linked-el length="28" name="%0" offset="2318" path="%1"/>
+   <linked-el length="15" name="%0" offset="2782" path="%1"/>
+   <linked-el length="15" name="%0" offset="2874" path="%1"/>
+   <linked-el length="23" name="%2" offset="2164" path="%3"/>
+   <linked-el length="19" name="%2" offset="2388" path="%3"/>
+   <linked-el length="25" name="%2" offset="2099" path="%3"/>
+   <linked-el length="15" name="%4" offset="2828" path="%3"/>
+   <linked-el length="19" name="%4" offset="2707" path="%3"/>
+   <linked-el length="23" name="%4" offset="2164" path="%3"/>
+   <linked-el length="19" name="%4" offset="2388" path="%3"/>
+   <linked-el length="25" name="%4" offset="2099" path="%3"/>
+   <linked-el length="15" name="%5" offset="2828" path="%3"/>
+   <linked-el length="19" name="%5" offset="2707" path="%3"/>
+   <linked-el length="25" name="%5" offset="2099" path="%3"/>
+   <linked-el length="28" name="%6" offset="2318" path="%1"/>
+   <linked-el length="24" name="%6" offset="2657" path="%1"/>
+   <linked-el length="38" name="%6" offset="2388" path="%1"/>
+   <linked-el length="15" name="%6" offset="2782" path="%1"/>
+   <linked-el length="15" name="%6" offset="2874" path="%1"/>
+   <linked-el length="42" name="%7" offset="2210" path="%8"/>
+   <linked-el length="69" name="%7" offset="2984" path="%8"/>
+   <linked-el length="35" name="%7" offset="2135" path="%8"/>
+   <linked-el length="31" name="%7" offset="2462" path="%8"/>
+   <linked-el length="40" name="%9" offset="2199" path="%10"/>
+   <linked-el length="39" name="%9" offset="2423" path="%10"/>
+   <linked-el length="31" name="%9" offset="2698" path="%10"/>
+   <linked-el length="19" name="%9" offset="3142" path="%10"/>
+   <linked-el length="36" name="%9" offset="2346" path="%10"/>
+   <linked-el length="23" name="%9" offset="3017" path="%10"/>
+   <linked-el length="19" name="%11" offset="3027" path="%12"/>
+   <linked-el length="24" name="%11" offset="2180" path="%12"/>
+   <linked-el length="22" name="%11" offset="2761" path="%12"/>
+   <linked-el length="25" name="%11" offset="2287" path="%12"/>
+   <linked-el length="24" name="%11" offset="2577" path="%12"/>
+   <linked-el length="24" name="%11" offset="2398" path="%12"/>
+   <linked-el length="18" name="%13" offset="2783" path="%8"/>
+   <linked-el length="19" name="%13" offset="2903" path="%8"/>
+   <linked-el length="42" name="%13" offset="2210" path="%8"/>
+   <linked-el length="69" name="%13" offset="2984" path="%8"/>
+   <linked-el length="35" name="%13" offset="2135" path="%8"/>
+   <linked-el length="31" name="%13" offset="2462" path="%8"/>
+   <linked-el length="16" name="%14" offset="2634" path="%12"/>
+   <linked-el length="40" name="%14" offset="2199" path="%10"/>
+   <linked-el length="24" name="%14" offset="3695" path="%12"/>
+   <linked-el length="19" name="%14" offset="3142" path="%10"/>
+   <linked-el length="36" name="%14" offset="2346" path="%10"/>
+   <linked-el length="23" name="%14" offset="3017" path="%10"/>
+   <linked-el length="28" name="%14" offset="3564" path="%12"/>
+   <linked-el length="18" name="%15" offset="2783" path="%8"/>
+   <linked-el length="19" name="%15" offset="2903" path="%8"/>
+   <linked-el length="35" name="%15" offset="2135" path="%8"/>
+   <linked-el length="40" name="%16" offset="2199" path="%10"/>
+   <linked-el length="39" name="%16" offset="2423" path="%10"/>
+   <linked-el length="31" name="%16" offset="2698" path="%10"/>
+   <linked-el length="36" name="%16" offset="2346" path="%10"/>
+   <linked-el length="28" name="%17" offset="2318" path="%1"/>
+   <linked-el length="24" name="%17" offset="2657" path="%1"/>
+   <linked-el length="38" name="%17" offset="2388" path="%1"/>
+   <linked-el length="16" name="%18" offset="2634" path="%12"/>
+   <linked-el length="23" name="%18" offset="3957" path="%12"/>
+   <linked-el length="25" name="%18" offset="2287" path="%12"/>
+   <linked-el length="22" name="%18" offset="2761" path="%12"/>
+   <linked-el length="24" name="%18" offset="2398" path="%12"/>
+   <linked-el length="19" name="%18" offset="3027" path="%12"/>
+   <linked-el length="24" name="%18" offset="3695" path="%12"/>
+   <linked-el length="24" name="%18" offset="2180" path="%12"/>
+   <linked-el length="29" name="%18" offset="3827" path="%12"/>
+   <linked-el length="7" name="%18" offset="2660" path="%12"/>
+   <linked-el length="24" name="%18" offset="2577" path="%12"/>
+   <linked-el length="15" name="%18" offset="3326" path="%12"/>
+   <linked-el length="16" name="%18" offset="3443" path="%12"/>
+   <linked-el length="28" name="%18" offset="3564" path="%12"/>
+   <linked-el length="23" name="%19" offset="3957" path="%12"/>
+   <linked-el length="29" name="%19" offset="3827" path="%12"/>
+   <linked-el length="23" name="%20" offset="3957" path="%12"/>
+   <linked-el length="24" name="%20" offset="3695" path="%12"/>
+   <linked-el length="24" name="%20" offset="2180" path="%12"/>
+   <linked-el length="29" name="%20" offset="3827" path="%12"/>
+   <linked-el length="25" name="%20" offset="2287" path="%12"/>
+   <linked-el length="15" name="%20" offset="3326" path="%12"/>
+   <linked-el length="24" name="%20" offset="2398" path="%12"/>
+   <linked-el length="28" name="%20" offset="3564" path="%12"/>
+   <linked-el length="16" name="%20" offset="3443" path="%12"/>
   </el>
  </validation>
  <aliases>
   <alias
    path="/ger-curriculoClient/ejbModule/br/com/entidade/Empresa.java" value="%0"/>
-  <alias path="cursosMB" value="%2"/>
-  <alias path="/ger-curriculoWeb/src/managedbean/CursosMB.java" value="%4"/>
+  <alias path="/ger-curriculoWeb/src/managedbean/CursosMB.java" value="%2"/>
+  <alias path="cursosMB" value="%4"/>
   <alias
    path="/ger-curriculoClient/ejbModule/br/com/entidade/Curso.java" value="%5"/>
   <alias path="empresaMB" value="%6"/>
+  <alias
+   path="/ger-curriculoWeb/WebContent/paginas-admin/cad-nome-empresa.xhtml" value="%1"/>
   <alias path="/ger-curriculoWeb/src/managedbean/AreaDeAtuacaoMB.java" value="%7"/>
-  <alias path="tipoLoginMB" value="%10"/>
+  <alias path="tipoLoginMB" value="%9"/>
   <alias
-   path="/ger-curriculoWeb/WebContent/paginas-admin/login-cad.xhtml" value="%9"/>
-  <alias path="areaDeAtuacaoMB" value="%14"/>
+   path="/ger-curriculoWeb/WebContent/paginas-admin/login-cad.xhtml" value="%12"/>
   <alias
-   path="/ger-curriculoClient/ejbModule/br/com/entidade/TipoLogin.java" value="%13"/>
-  <alias path="/ger-curriculoWeb/src/managedbean/LoginMB.java" value="%12"/>
-  <alias path="/ger-curriculoWeb/WebContent/index.xhtml" value="%1"/>
+   path="/ger-curriculoClient/ejbModule/br/com/entidade/TipoLogin.java" value="%14"/>
+  <alias path="areaDeAtuacaoMB" value="%13"/>
+  <alias path="/ger-curriculoWeb/src/managedbean/LoginMB.java" value="%11"/>
+  <alias path="/ger-curriculoWeb/src/managedbean/TipoLoginMB.java" value="%16"/>
   <alias
-   path="/ger-curriculoClient/ejbModule/br/com/entidade/AreaAtuacao.java" value="%16"/>
-  <alias path="/ger-curriculoWeb/src/managedbean/TipoLoginMB.java" value="%15"/>
+   path="/ger-curriculoClient/ejbModule/br/com/entidade/AreaAtuacao.java" value="%15"/>
   <alias path="/ger-curriculoWeb/src/managedbean/EmpresaMB.java" value="%17"/>
   <alias
    path="/ger-curriculoWeb/WebContent/paginas-admin/curso-cad.xhtml" value="%3"/>
   <alias path="loginMB" value="%18"/>
   <alias
-   path="/ger-curriculoWeb/WebContent/paginas-admin/tipo-login-cad.xhtml" value="%11"/>
+   path="/ger-curriculoWeb/WebContent/paginas-admin/tipo-login-cad.xhtml" value="%10"/>
   <alias
    path="/ger-curriculoWeb/WebContent/paginas-admin/area-atuacao-cad.xhtml" value="%8"/>
   <alias
-   path="/ger-curriculoClient/ejbModule/br/com/entidade/Login.java" value="%19"/>
+   path="/ger-curriculoClient/ejbModule/br/com/entidade/Login.java" value="%20"/>
+  <alias
+   path="/ger-curriculoClient/ejbModule/br/com/entidade/Usuario.java" value="%19"/>
  </aliases>
 </kb-project>

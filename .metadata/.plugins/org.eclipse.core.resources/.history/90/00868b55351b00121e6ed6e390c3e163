@@ -1,0 +1,11 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import br.com.entidade.Usuario;
+
+public interface UsuarioRepositorio {
+	public void adiciona(Usuario user);
+
+	public List<User> getLista();
+}

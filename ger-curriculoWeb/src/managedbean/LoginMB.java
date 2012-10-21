@@ -9,6 +9,7 @@ import javax.faces.bean.RequestScoped;
 import javax.faces.model.SelectItem;
 import clienterepositorio.LoginRepositorio;
 import br.com.entidade.Login;
+import br.com.entidade.Usuario;
 import clienterepositorio.TipoLoginRepositorio;
 import br.com.entidade.TipoLogin;
 
@@ -28,11 +29,14 @@ public class LoginMB {
 	private List<TipoLogin> listateste;
 
 	public String adiciona() {
+		this.Login.setUsuario(new Usuario());
 		repositorio.adiciona(this.Login);
+
 		this.Login = new Login();
 
 		this.loginCache = null;
-		return "";
+		System.out.print("Adicionado");
+		return "curso-cad";
 	}
 
 	public List<Login> getLogins() {

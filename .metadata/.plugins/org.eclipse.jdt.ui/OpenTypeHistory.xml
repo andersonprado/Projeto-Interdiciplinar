@@ -6,4 +6,6 @@
 <typeInfo handle="=ger-curriculoClient/ejbModule&lt;clienterepositorio{CursosRepositorio.java[CursosRepositorio" modifiers="513" timestamp="1348967280767"/>
 <typeInfo handle="=ger-curriculoClient/ejbModule&lt;clienterepositorio{LoginRepositorio.java[LoginRepositorio" modifiers="513" timestamp="1348968916983"/>
 <typeInfo handle="=ger-curriculo/E:\/Servidores Web\/Nova pasta\/glassfish3\/glassfish\/modules\/org.eclipse.persistence.core.jar&lt;org.eclipse.persistence.sessions(Login.class[Login" modifiers="1537" timestamp="1342021110000"/>
+<typeInfo handle="=ger-curriculo-Desktop/E:\/Servidores Web\/glassfish3\/glassfish\/modules\/glassfish-corba-csiv2-idl.jar&lt;com.sun.corba.ee.org.omg.CSIIOP(AS_ContextSec.class[AS_ContextSec" modifiers="49" timestamp="1342021372000"/>
+<typeInfo handle="=ger-curriculoClient/ejbModule&lt;clienterepositorio{UsuarioRepositorio.java[UsuarioRepositorio" modifiers="513" timestamp="1350792665714"/>
 </typeInfoHistroy>

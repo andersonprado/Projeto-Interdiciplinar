@@ -1,0 +1,26 @@
+package clienterepositorio;
+
+import java.util.List;
+
+import javax.ejb.Remote;
+import javax.ejb.Stateless;
+
+import br.com.entidade.Usuario;
+@Stateless
+
+@Remote(UsuarioRepositorio.class)
+public class UsuarioRepositorioImplement implements UsuarioRepositorio {
+
+	@Override
+	public void adiciona(Usuario user) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Usuario> getLista() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

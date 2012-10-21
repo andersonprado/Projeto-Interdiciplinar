@@ -2,28 +2,38 @@ package clienterepositorio;
 
 import java.util.List;
 
-import javax.ejb.Local;
+import javax.ejb.Remote;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import br.com.entidade.Usuario;
 
+
 @Stateless
-@Local(UsuarioRepositorio.class)
+@Remote(UsuarioRepositorio.class)
 public class UsuarioRepositorioImplement implements UsuarioRepositorio {
+
 	@PersistenceContext
 	private EntityManager manager;
 
-	public void adiciona(Usuario usuario) {
-		manager.persist(usuario);
+	@Override
+	public void adiciona(Usuario user) {
+		manager.persist(user);
 	}
 
 	@Override
-	public List<Usuario> getUsuarios() {
+	public List<Usuario> getLista() {
 		TypedQuery<Usuario> query = manager.createQuery(
-				"select cl from Empresa cl", Usuario.class);
+				"select cl from Usuario cl ", Usuario.class);
 
 		return query.getResultList();
 	}
+
+	@Override
+	public Usuario getUsuario(int cod) {
+		
+		return null;
+	}
+
 }
