@@ -51,42 +51,24 @@
 						</h2>
 						<div class="inner">
 							<h:form>
+								<h:panelGrid columns="1" cellspacing="5">
+									<h:outputLabel value="Nome" />
+									<p:inputText value="" style="width: 354px;" />
 
-								<h:outputLabel value="Nome" />
-								<br />
-								<p:inputText value="" style="width: 354px;" />
-								<br />
-								<h:outputLabel value="Email" />
-								<br />
-								<p:inputText value="" style="width: 354px;" />
+									<h:outputLabel value="Email" />
+									<p:inputText value="" style="width: 354px;" />
 
-								<br />
-								<h:outputLabel value="Data de Nascimento" />
+									<h:outputLabel value="Data de Nascimento" />
+									<p:inputMask value="" style="width: 162px;" />
 
-								<p:inputText value="" style="width: 162px;" />
+	
 
-								<div class="group">
-									<label class="label">Sexo</label>
-									<div>
-										<input type="radio" name="radio" id="radio_1" class="checkbox"
-											value="1" /> <label for="radio_1" class="radio">Maculino</label><br />
-										<input type="radio" name="radio" id="radio_1" class="checkbox"
-											value="1" /> <label for="radio_1" class="radio">Feminino</label>
-									</div>
-								</div>
-								<div class="group">
-									<label class="label">CPF</label> <input type="text"
-										class="text_field" style="width: 162px;" /> <span
-										class="description"></span>
-								</div>
 
-								<div class="group">
-									<label class="label">Telefones</label> <input type="text"
-										class="text_field" style="width: 162px;" /> <input
-										type="text" class="text_field"
-										style="width: 162px; margin-left: 25px;" /> <span
-										class="description"></span>
-								</div>
+									<h:outputLabel value="Telefones" />
+									<p:inputMask mask="(999) 9999-9999" value=""
+										style="width: 162px;" />
+								</h:panelGrid>
+
 								<div class="group">
 									<label class="label">Cep</label> <input type="text"
 										class="text_field" style="width: 162px;" />
