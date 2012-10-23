@@ -7,6 +7,8 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
+
+import br.com.entidade.Login;
 import br.com.entidade.TipoLogin;
 
 @Stateless
@@ -14,18 +16,18 @@ import br.com.entidade.TipoLogin;
 public class TipoLoginRepositorioImplement implements TipoLoginRepositorio {
 
 	@PersistenceContext
-	private EntityManager manager2;
+	private EntityManager manager;
 
 	@Override
 	public void adiciona(TipoLogin tipo) {
-//		manager2.getTransaction().begin();
-		manager2.persist(tipo);
-//		manager2.getTransaction().commit();
+		// manager.getTransaction().begin();
+		manager.persist(tipo);
+		// manager.getTransaction().commit();
 	}
 
 	@Override
 	public List<TipoLogin> getTipoLogin() {
-		TypedQuery<TipoLogin> query = manager2.createQuery(
+		TypedQuery<TipoLogin> query = manager.createQuery(
 				"select cl from TipoLogin cl", TipoLogin.class);
 
 		return query.getResultList();
@@ -33,7 +35,13 @@ public class TipoLoginRepositorioImplement implements TipoLoginRepositorio {
 
 	@Override
 	public TipoLogin getTipo(int codigo) {
-		return manager2.find(TipoLogin.class, codigo);
+		return manager.find(TipoLogin.class, codigo);
+	}
+
+	@Override
+	public void atualiza(Login login) {
+		manager.merge(login);
+
 	}
 
 }

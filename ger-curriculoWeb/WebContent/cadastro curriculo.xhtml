@@ -23,7 +23,6 @@
 			<div id="user-navigation">
 				<ul class="wat-cf">
 
-
 					<li><a class="logout" href="#">Logout</a></li>
 				</ul>
 			</div>
@@ -53,64 +52,59 @@
 							<h:form>
 								<h:panelGrid columns="1" cellspacing="5">
 									<h:outputLabel value="Nome" />
-									<p:inputText value="" style="width: 354px;" />
+									<p:inputText value="" style="width: 354px;" required="true" />
+
+									<h:outputLabel value="Data de Nascimento" />
+									<p:inputMask value="" mask="99/99/99" style="width: 162px;"
+										required="true" />
+
+									<h:outputText value="Sexo " />
+									<p:selectOneRadio value="">
+										<f:selectItem itemLabel="Masculino" itemValue="M" itemDisabled="false"/>
+										<f:selectItem itemLabel="Feminino" itemValue="F" />
+									</p:selectOneRadio>
 
 									<h:outputLabel value="Email" />
 									<p:inputText value="" style="width: 354px;" />
 
-									<h:outputLabel value="Data de Nascimento" />
-									<p:inputMask value="" style="width: 162px;" />
+									<h:outputLabel value="cpf" />
+									<p:inputMask mask="999.999.999/99" value=""
+										style="width: 162px;" />
 
-	
+									<h:outputLabel value="Endereço" />
+									<p:inputText value="" style="width: 354px;" />
+
+
+									<h:outputLabel value="Cep" />
+									<p:inputMask mask="99999-999" value="" style="width: 162px;" />
 
 
 									<h:outputLabel value="Telefones" />
 									<p:inputMask mask="(999) 9999-9999" value=""
 										style="width: 162px;" />
+
+									<h:outputText value="Pessoa com deficiência? " />
+									<p:selectOneRadio value="">
+										<f:selectItem itemLabel="Sim" itemValue="1" />
+										<f:selectItem itemLabel="Não" itemValue="2" />
+									</p:selectOneRadio>
+
+									<p:selectOneMenu value="Cargo Pretendido" style="width: 626px;">
+										<f:selectItem itemLabel="Selecione" itemValue="" />
+										<f:selectItems value="" />
+									</p:selectOneMenu>
+
+									<h:outputText value="Está empregado atualmente?" />
+									<p:selectOneRadio value="">
+										<f:selectItem itemLabel="Sim" itemValue="1" />
+										<f:selectItem itemLabel="Não" itemValue="2" />
+									</p:selectOneRadio>
+
+									<p:commandButton action="" value="Salvar" />
+
 								</h:panelGrid>
 
-								<div class="group">
-									<label class="label">Cep</label> <input type="text"
-										class="text_field" style="width: 162px;" />
-								</div>
-								<div class="group">
-									<label class="label">Estado</label> <select
-										style="width: 156px;"><option value="1"
-											selected="selected">São Paulo</option></select>
-								</div>
-								<div class="group">
-									<label class="label"> Pessoa com deficiência?</label>
-									<div>
-										<input type="radio" name="radio" id="radio_1" class="checkbox"
-											value="1" /> <label for="radio_1" class="radio">Sim</label><br />
-										<input type="radio" name="radio" id="radio_1" class="checkbox"
-											value="1" /> <label for="radio_1" class="radio">Não</label>
-									</div>
-								</div>
 
-								<div class="group">
-									<label class="label">Cargo Pretendido</label> <input
-										type="text" class="text_field" style="width: 626px;" />
-								</div>
-
-								<div class="group" style="margin-top: 30px">
-									<label class="label"> Está empregado atualmente?</label>
-									<div>
-										<input type="radio" name="radio" id="radio_1" class="checkbox"
-											value="1" /> <label for="radio_1" class="radio">Sim</label><br />
-										<input type="radio" name="radio" id="radio_1" class="checkbox"
-											value="1" /> <label for="radio_1" class="radio">Não</label>
-									</div>
-								</div>
-								<div>
-									<div class="group navform wat-cf" style="margin-top: 35px">
-										<button class="button" type="submit">
-											<img src="images/icons/tick.png" alt="Save" /> Save
-										</button>
-										<span class="text_button_padding"></span> <a
-											class="text_button_padding link_button" href="#header">Cancel</a>
-									</div>
-								</div>
 							</h:form>
 						</div>
 					</div>

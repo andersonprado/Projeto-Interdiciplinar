@@ -8,5 +8,7 @@ public interface AreaAtuacaoRepositorio {
 
 	public void adiciona(AreaAtuacao area);
 
+	public void atualiza(AreaAtuacao area);
+	
 	public List<AreaAtuacao> getListaArea();
 }

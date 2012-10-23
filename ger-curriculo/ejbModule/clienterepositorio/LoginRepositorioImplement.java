@@ -30,4 +30,10 @@ public class LoginRepositorioImplement implements LoginRepositorio {
 		return query.getResultList();
 	}
 
+	@Override
+	public void atualiza(Login login) {
+	manager.merge(login);
+		
+	}
+
 }

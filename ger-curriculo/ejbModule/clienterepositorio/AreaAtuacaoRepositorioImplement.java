@@ -28,4 +28,10 @@ public class AreaAtuacaoRepositorioImplement implements AreaAtuacaoRepositorio {
 		return query.getResultList();
 	}
 
+	@Override
+	public void atualiza(AreaAtuacao area) {
+		manager2.merge(area);
+		
+	}
+
 }

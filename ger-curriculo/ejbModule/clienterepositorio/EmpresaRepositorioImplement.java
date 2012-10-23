@@ -30,4 +30,10 @@ public class EmpresaRepositorioImplement implements EmpresaRepositorio {
 
 		return query.getResultList();
 	}
+
+	@Override
+	public void atualiza(Empresa empresa) {
+		manager.merge(empresa);
+		
+	}
 }

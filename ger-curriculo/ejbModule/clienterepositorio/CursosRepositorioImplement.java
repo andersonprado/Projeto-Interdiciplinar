@@ -30,4 +30,10 @@ public class CursosRepositorioImplement implements CursosRepositorio {
 		return query.getResultList();
 	}
 
+	@Override
+	public void atualiza(Curso curso) {
+		manager.merge(curso);
+		
+	}
+
 }

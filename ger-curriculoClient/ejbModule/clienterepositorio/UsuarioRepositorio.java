@@ -7,7 +7,9 @@ import br.com.entidade.Usuario;
 public interface UsuarioRepositorio {
 	public void adiciona(Usuario user);
 
+	public void aualiza(Usuario user);
+
 	public List<Usuario> getLista();
-	
+
 	public Usuario getUsuario(int cod);
 }

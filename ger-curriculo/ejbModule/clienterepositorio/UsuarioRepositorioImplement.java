@@ -9,7 +9,6 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import br.com.entidade.Usuario;
 
-
 @Stateless
 @Remote(UsuarioRepositorio.class)
 public class UsuarioRepositorioImplement implements UsuarioRepositorio {
@@ -32,8 +31,13 @@ public class UsuarioRepositorioImplement implements UsuarioRepositorio {
 
 	@Override
 	public Usuario getUsuario(int cod) {
-		
-		return null;
+		return manager.find(Usuario.class, cod);
+	}
+
+	@Override
+	public void aualiza(Usuario user) {
+		manager.merge(user);
+
 	}
 
 }
