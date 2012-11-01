@@ -7,93 +7,39 @@
     <persistence-unit
         name="teste"
         transaction-type="JTA" >
+        <provider>oracle.toplink.essentials.PersistenceProvider</provider>
+        <jta-data-source>jdbc/projeto</jta-data-source>
 
-        <provider>
-oracle.toplink.essentials.PersistenceProvider
-        </provider>
-
-        <jta-data-source>
-jdbc/projeto        
-        </jta-data-source>
-
-        <class>
-br.com.entidade.Empresa         
-        </class>
-
-        <class>
-br.com.entidade.AreaAtuacao   
-        </class>
-
-        <class>
-br.com.entidade.TipoLogin
-        </class>
-
-        <class>
-br.com.entidade.Login
-        </class>
-
-        <class>
-br.com.entidade.Usuario
-        </class>
-
-        <class>
-br.com.entidade.Curriculo
-        </class>
-
-        <class>
-br.com.entidade.Endereco
-        </class>
-
-        <class>
-br.com.entidade.TipoDeTelefone
-        </class>
-
-        <class>
-br.com.entidade.Telefone
-        </class>
-
-        <class>
-br.com.entidade.CurriculoEmpresa
-        </class>
-
-        <class>
-br.com.entidade.CurriculoCursos
-        </class>
-
-        <class>
-br.com.entidade.Curso
-        </class>
-
-       
-
-        <class>
-br.com.entidade.Login
-        </class>
-
-        <class>
-br.com.entidade.EnderecoEmpresa
-        </class>
+        <class>br.com.entidade.Empresa</class>
+        <class>br.com.entidade.AreaAtuacao</class>
+        <class>br.com.entidade.TipoLogin</class>
+        <class>br.com.entidade.Login</class>
+        <class>br.com.entidade.Usuario</class>
+        <class>br.com.entidade.Curriculo</class>
+        <class>br.com.entidade.Endereco</class>
+        <class>br.com.entidade.TipoDeTelefone</class>
+        <class>br.com.entidade.Telefone</class>
+        <class>br.com.entidade.CurriculoEmpresa</class>
+        <class>br.com.entidade.CurriculoCursos</class>
+        <class>br.com.entidade.Curso</class>
+        <class>br.com.entidade.Login</class>
+        <class>br.com.entidade.EnderecoEmpresa</class>
 
         <!--
-                <properties>
-
+        <properties>
             <property
                 name="hibernate.show_sql"
                 value="true" />
-
             <property
                 name="hibernate.format_sql"
                 value="true" />
-
             <property
                 name="hibernate.hbm2ddl.auto"
                 value="update" />
-
             <property
                 name="hibernate.dialect"
                 value="org.hibernate.dialect.MySQL5InnoDBDialect" />
-        </properties>
-        -->
+        </properties>
+  -->
     </persistence-unit>
-
 </persistence>
