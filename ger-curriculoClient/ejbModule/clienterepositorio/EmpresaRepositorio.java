@@ -7,5 +7,9 @@ public interface EmpresaRepositorio {
 
 	public void adiciona(Empresa empresa);
 
+	public void atualiza(Empresa empresa);
+	
 	public List<Empresa> getEmpresas();
+	
+	public Empresa getEmpresa(int cod);
 }

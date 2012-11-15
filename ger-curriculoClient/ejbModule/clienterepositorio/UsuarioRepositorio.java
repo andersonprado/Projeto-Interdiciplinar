@@ -5,8 +5,11 @@ import java.util.List;
 import br.com.entidade.Usuario;
 
 public interface UsuarioRepositorio {
+	public void adiciona(Usuario user);
 
-	public void adiciona(Usuario usuario);
+	public void atualiza(Usuario user);
 
-	public List<Usuario> getUsuarios();
+	public List<Usuario> getLista();
+
+	public Usuario getUsuario(int cod);
 }
