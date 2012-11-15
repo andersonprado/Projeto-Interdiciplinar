@@ -8,6 +8,7 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import br.com.entidade.AreaAtuacao;
 
+
 @Stateless
 @Remote(AreaAtuacaoRepositorio.class)
 public class AreaAtuacaoRepositorioImplement implements AreaAtuacaoRepositorio {
@@ -26,6 +27,17 @@ public class AreaAtuacaoRepositorioImplement implements AreaAtuacaoRepositorio {
 				"select cl from AreaAtuacao cl", AreaAtuacao.class);
 
 		return query.getResultList();
+	}
+
+	@Override
+	public void atualiza(AreaAtuacao area) {
+		manager2.merge(area);
+		
+	}
+
+	@Override
+	public AreaAtuacao getArea(int cod) {
+		return manager2.find(AreaAtuacao.class, cod);
 	}
 
 }
