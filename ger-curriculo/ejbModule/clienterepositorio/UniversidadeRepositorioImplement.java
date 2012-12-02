@@ -42,4 +42,11 @@ public class UniversidadeRepositorioImplement implements
 		return manager.find(Universidade.class, cod);
 	}
 
+	@Override
+	public void remove(Universidade universidade) {
+		Universidade remove = manager.merge(universidade);
+		manager.remove(remove);
+
+	}
+
 }

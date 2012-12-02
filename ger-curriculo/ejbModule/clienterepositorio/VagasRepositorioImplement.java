@@ -6,6 +6,7 @@ import javax.ejb.Remote;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 import br.com.entidade.Vagas;
 
@@ -32,11 +33,13 @@ public class VagasRepositorioImplement implements VagasRepositorio {
 		TypedQuery<Vagas> query = manager.createQuery(
 				"select cl from Vagas cl", Vagas.class);
 
-		return query.getResultList();
+//		Query query = manager.createNamedQuery("Vagas.findAll");
+		List<Vagas> lista = query.getResultList();
+		return lista;
 	}
 
 	@Override
-	public Vagas getUsuario(int cod) {
+	public Vagas getVaga(int cod) {
 		return manager.find(Vagas.class, cod);
 	}
 
